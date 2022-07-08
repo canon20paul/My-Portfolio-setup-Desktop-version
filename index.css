@@ -80,6 +80,7 @@ body {
 /* Top Navigation Bar */
 nav {
   width:90%;
+  height: 3rem;
   display: flex;  
   margin: 0 auto;
   align-items: center;
@@ -153,7 +154,7 @@ li {
   width: 100%;
   display: flex;
   justify-content:space-between;
-}
+  }
 
 .Enclipe1{
     position: absolute;
@@ -175,12 +176,14 @@ li {
     filter: blur(50px);
 }
 .works {
-    margin:  auto;
+    margin-top: 10rem;
+    
     border-color: #f00;
     height: 490vh;
     display: grid;
-    grid-template-columns: 80%;
-    grid-template-rows: 220px 730px 730px 730px 730px 780px 200px;
+   justify-content: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 9rem 27rem 730px 730px 730px 780px 200px;
     grid-gap: 15px;
     grid-template-areas:
       "title"
@@ -190,4 +193,46 @@ li {
       "main4"
       "contact"
       "footer";
-  }
+}
+
+.Title {
+    grid-area: title;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 43.75rem;
+  font-size: 3rem;
+  line-height: 1147.125rem;
+  display: flex;
+  align-items: center;
+  color: #9390FF;
+
+
+}
+
+.Wimage img {
+    width:35em;
+}
+
+  .work1 {
+    grid-area: main1;
+
+}
+
+.work2 {
+    
+}
+.work3 {
+
+}
+
+.work4 {
+
+}
+
+.Contact-Form {
+
+}
+
+.Footer {
+
+}
