@@ -1,33 +1,193 @@
 html {
-    font-size: 16px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color:#ffffff;
+}
+
+a:link, a:visited , a:hover ,a:active {
+  text-decoration: none;
+  text-decoration: none; color:#ffffff; 
+}
+
+img:hover {
+ border: 0.2rem solid red;
+ border-radius: 50%;
 }
 
 * {
   padding: o;
   margin: 0;
+  border: 0;
 }
 
+/* Beginning of TOPOGRAPHY */
+h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 43.75rem;
+font-size: 5.625rem;
+line-height: 6.5625rem;
+text-align: center;
+color: #9391FF;
+}
+
+/* Header Softwear Developer>>> Topography */
+.HSD {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 31.25rem;
+  font-size: 2.5rem;
+  line-height: 2.9375rem;
+  text-align: center;
+  color: #DFE1E6;
+}
+
+/* Main Description>>> Topography */
+.Desc {
+  margin-top: 6em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #B3BAC5;
+}
+/* Main Header */
+.HD{
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+}
+/* Main Body Styling */
 body {
   background-color: #191765;
   color: #ffffff;
-  margin: auto;
-}
+  min-width: 320px;
+  }
 
-.flame {
+.flme {
     border: 2px solid red;
 }
 
+/* Vertical Line */
+.HRL {
+  border: 2px solid  rgb(53, 51, 51);
+  width: 80%;
+  margin: auto;
+  margin-top: 2.5em;
+  margin-bottom: 2.5rem;
+}
+/* Top Navigation Bar */
 nav {
-  width:95%;
-  height: 72px;
+  width:90%;
+  display: flex;  
   margin: 0 auto;
+  align-items: center;
+  font-size: 1rem;
+}
+.nav1 {
+    width:90%;
+    display: flex;  
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 1rem;
   }
 
+.navA {
+  width:50%;
+  float: right;
+}
+
+.navB {
+  width: 40%;
+  float: left;
+}
+
+.navL li {
+  float: right;
+  padding-left: 5em;
+}
+
+.navSpace {
+  width: 5em;
+  height: 0.001em;
+}
+UL {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+/* Main Section */
 .section1 {
-    width:100%;
+  width:100%;
 }
-
+/* Main Container-1 */
 .container-1 {
-  width: 95%;
-
+  width: 35%;
+  min-width: 320px;
+  margin: auto;
 }
+
+li {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6667px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+} 
+
+.HL {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #9390FF;
+  }
+
+.Tech-list {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.Enclipe1{
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 69px;
+    top: 237px;
+    background: #EDECFF;
+    filter: blur(50px);
+}
+
+.Enclipe2 {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 1143px;
+    top: 546px;
+    background: #EDECFF;
+    filter: blur(50px);
+}
+.works {
+    margin:  auto;
+    border-color: #f00;
+    height: 490vh;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 220px 730px 730px 730px 730px 780px 200px;
+    grid-gap: 15px;
+    grid-template-areas:
+      "title"
+      "main1"
+      "main2"
+      "main3"
+      "main4"
+      "contact"
+      "footer";
+  }
