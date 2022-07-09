@@ -605,11 +605,11 @@ like Tabs */
   .Title {
     justify-content: center;
   }
-
+  
   .social {
     order: 0;
   }
-
+  
   .work1 {
     width: 100%;
   }
@@ -682,7 +682,7 @@ Mearnt for Mobile Phones of all sizes */
     width: 95%;
     margin: auto;
   }
-
+  
   .Wimage {
     height: 40%;
     width: 92%;
@@ -708,21 +708,22 @@ Mearnt for Mobile Phones of all sizes */
     grid-gap: 6rem;
     grid-template-areas:
 
-            "title"
-            "main1"
-            "main2"
-            "main3"
-            "main4"
-            "contact"
-            "footer";
+      "title"
+      "main1"
+      "main2"
+      "main3"
+      "main4"
+      "contact"
+      "footer";
   }
 
   button {
     width: 45%;
     font-size: 1rem;
   }
-    .Title {
-      font-size: 2.6rem;
+
+  .Title {
+    font-size: 2.6rem;
   }
 
   .work1 {
