@@ -36,17 +36,18 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
-
-### Install
+-Any Web Browser (Preferably updated)
 
 ### Usage
+Capture an individual's Work Portofolio.
 
 ### Run tests
-
+-Css error Tests Passed.
+-Html Error Tests passed.
+-Tested on devices of as low as 300pxs.
+-Tested on screens as large as 1200pxs
 ### Deployment
-
+Any webhost
 
 
 ## Authors

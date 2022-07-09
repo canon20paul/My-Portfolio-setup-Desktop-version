@@ -91,12 +91,12 @@ nav {
   font-size: 1rem;
 }
 
-.nav2 {
+.div2 {
   width: 80%;
   height: 6rem;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content:space-around;
   font-size: 1rem;
   margin-top: 6rem;
 }
@@ -208,7 +208,14 @@ li {
 }
 
 button:hover {
-  color: #f00;
+   background: #6a65fa;
+}
+button:Focus {
+  background: #221bfc;
+}
+
+button:Disabled {
+  background: #000000;
 }
 
 .buttonW {
@@ -521,7 +528,7 @@ MAX-WITHDTH 650PX */
     height: 0;
   }
 
-  .nav2 {
+  .div2 {
     width: 100%;
   }
 
@@ -598,7 +605,7 @@ like Tabs */
     height: 0;
   }
 
-  .nav2 {
+  .div2 {
     width: 100%;
   }
 
