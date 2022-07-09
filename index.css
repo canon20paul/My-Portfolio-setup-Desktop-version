@@ -152,7 +152,7 @@ li {
 }
 
 .HL {
-  font-family: Roboto,  BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 43rem;
   font-size: 1.1rem;
@@ -546,24 +546,24 @@ MAX-WITHDTH 650PX */
   }
   
   .WKdetail p {
-   margin-bottom: 0;
+    margin-bottom: 0;
   }
   
   .WKT {
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 2.5rem;
-    line-height: 5rempx;
+    line-height: 5rem;
   }
 }
 
 /* Mearnt for Small to Medium sized gadgets
 like Tabs */
 @media (max-width: 60rem) {
-
   html {
     font-size: 11px;
   }
+
   .Enclipe1 {
     position: absolute;
     width: 10em;
@@ -630,7 +630,7 @@ like Tabs */
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 2.5rem;
-    line-height: 5rempx;
+    line-height: 5rem;
   }
 }
 
@@ -640,6 +640,7 @@ Mearnt for Mobile Phones of all sizes */
   html {
     font-size: 16px;
   }
+
   body {
     max-width: 45em;
   }
@@ -681,6 +682,7 @@ Mearnt for Mobile Phones of all sizes */
     width: 95%;
     margin: auto;
   }
+
   .Wimage {
     height: 40%;
     width: 92%;
@@ -698,30 +700,30 @@ Mearnt for Mobile Phones of all sizes */
   .works {
     margin-top: rem;
     border-color: rgb(167, 161, 161);
-      height: 881vh;
-      display: grid;
-      justify-content: center;
-      grid-template-columns: 95%;
-      grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
-      grid-gap: 6rem;
-      grid-template-areas:
-      
-   "title"
-   "main1"
-   "main2"
-   "main3"
-   "main4"
-   "contact"
-   "footer";
+    height: 881vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95%;
+    grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
+    grid-gap: 6rem;
+    grid-template-areas:
 
+            "title"
+            "main1"
+            "main2"
+            "main3"
+            "main4"
+            "contact"
+            "footer";
   }
+
   button {
     width: 45%;
     font-size: 1rem;
   }
     .Title {
       font-size: 2.6rem;
-    }
+  }
 
   .work1 {
     grid-area: main1;
