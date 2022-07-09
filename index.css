@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   min-height: 100%;
 }
@@ -10,14 +10,13 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Main Body Styling */
 body {
   background-color: #191765;
-  color: #ffffff;
+  color: #fff;
   font-size: 1rem;
   min-height: 100%;
 }
@@ -35,7 +34,7 @@ img:hover {
 
 /* Beginning of TOPOGRAPHY */
 h1 {
-  font-family: "Roboto";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 43.75rem;
   font-size: 5.625rem;
@@ -46,7 +45,7 @@ h1 {
 
 /* Header Softwear Developer>>> Topography */
 .HSD {
-  font-family: "Roboto";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 31.25rem;
   font-size: 2.5rem;
@@ -58,7 +57,7 @@ h1 {
 /* Main Description>>> Topography */
 .Desc {
   margin-top: 6em;
-  font-family: "Roboto";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 25rem;
   font-size: 1.25rem;
@@ -66,6 +65,7 @@ h1 {
   text-align: center;
   color: #b3bac5;
 }
+
 /* Main Header */
 .HD {
   margin-top: 0.5rem;
@@ -80,6 +80,7 @@ h1 {
   margin-top: 2.5em;
   margin-bottom: 2.5rem;
 }
+
 /* Top Navigation Bar */
 nav {
   width: 90%;
@@ -89,6 +90,7 @@ nav {
   align-items: center;
   font-size: 1rem;
 }
+
 .nav2 {
   width: 80%;
   height: 6rem;
@@ -98,6 +100,7 @@ nav {
   font-size: 1rem;
   margin-top: 6rem;
 }
+
 .navA {
   width: 50%;
   float: right;
@@ -108,21 +111,17 @@ nav {
   float: left;
 }
 
-.navL li {
-  float: right;
-  padding-left: 5em;
-}
-
 .navSpace {
   width: 5em;
   height: 0.001em;
 }
 
-UL {
+ul {
   list-style-type: none;
   margin-bottom: 0;
   margin-left: -2rem;
 }
+
 /* Main Section */
 .section1 {
   width: 100%;
@@ -136,19 +135,24 @@ UL {
 }
 
 li {
-  font-family: "Roboto";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14.6667px;
   line-height: 28px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   padding-right: 1rem;
 }
 
+.navL li {
+  float: right;
+  padding-left: 5em;
+}
+
 .HL {
-  font-family: "Roboto";
+  font-family: Roboto,  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 43rem;
   font-size: 1.1rem;
@@ -190,7 +194,6 @@ li {
   height: 551vh;
   display: grid;
   justify-content: center;
-
   grid-template-columns: 80%;
   grid-template-rows: 15rem 30rem 30rem 30rem 30rem 50rem 5.5rem;
   grid-gap: 6rem;
@@ -207,9 +210,10 @@ li {
 button:hover {
   color: #f00;
 }
+
 .buttonW {
   font-size: 1rem;
- color:white;
+  color: white;
   width: 7rem;
   height: 3rem;
   text-align: center;
@@ -220,9 +224,10 @@ button:hover {
 .btnC {
   width: 100%;
 }
+
 .buttonS {
   font-size: 1rem;
- color:white;
+  color: white;
   width: 9rem;
   height: 3rem;
   text-align: center;
@@ -233,14 +238,14 @@ button:hover {
 .WKT {
   margin-bottom: 4rem;
   margin-top: 3rem;
-  font-family: Roboto;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 4.3rem;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .wfoot ul {
@@ -358,10 +363,6 @@ form {
   margin-top: -15px;
 }
 
-img:hover {
-  background-color: hsl(308, 89%, 49%);
-}
-
 .fa {
   color: #fff;
 }
@@ -372,7 +373,7 @@ img:hover {
 
 .Title {
   grid-area: title;
-  font-family: "Roboto";
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
   font-style: normal;
   font-weight: 43.75rem;
   font-size: 3rem;
@@ -482,286 +483,292 @@ img:hover {
 /* **************......... MEDIA QUERIES..........***************************
 MAX-WITHDTH 650PX */
 @media (max-width: 77rem) {
- html {
-font-size: 14px;
+  html {
+    font-size: 14px;
+  }
+    
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 55em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .navL li {
+     padding-left: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .navSpace {
+    width: 0;
+    height: 0;
+  }
+  
+  .nav2 {
+    width: 100%;
+  }
+  
+  .Title {
+    justify-content: center;
+  }
+  .social {
+    order: 0;
+  }
+  .work1 {
+    width: 100%;
+  }
+  .wkttl {
+    width: 40%;
+  }
+  
+  .Wimage {
+    width: 60%;
+  }
+  
+  .WKdetail p {
+   margin-bottom: 0;
+  }
+  
+  .WKT {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 5rempx;
+  }
 }
 
-
-.Enclipe1 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 0.3em;
-top: 10em;
-background: #edecff;
-filter: blur(3em);
-}
-
-.Enclipe2 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 55em;
-top: 50em;
-background: #edecff;
-filter: blur(3em);
-}
-
-.navL li {
-padding-left: 1rem;
-}
-button {
-font-size: 1rem;
-width: 100%;
-}
-
-.navSpace {
-width: 0;
-height: 0;
-}
-
-.nav2 {
-width: 100%;
-}
-
-.Title {
-justify-content: center;
-}
-.social {
-order: 0;
-}
-.work1 {
-width: 100%;
-}
-.wkttl {
-width: 40%;
-}
-
-.Wimage {
-width: 60%;
-}
-
-.WKdetail p {
-margin-bottom: 0;
-}
-
-.WKT {
-margin-bottom: 1rem;
-margin-top: 1rem;
-font-size: 2.5rem;
-line-height: 5rempx;
-}
-}
 /* Mearnt for Small to Medium sized gadgets
 like Tabs */
 @media (max-width: 60rem) {
-html {
-font-size: 11px;
-}
-.Enclipe1 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 0.3em;
-top: 10em;
-background: #edecff;
-filter: blur(3em);
+  html {
+    font-size: 11px;
+  }
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .navL li {
+    padding-left: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .navSpace {
+    width: 0;
+    height: 0;
+  }
+  
+  .nav2 {
+    width: 100%;
+  }
+  
+  .Title {
+    justify-content: center;
+  }
+
+  .social {
+    order: 0;
+  }
+
+  .work1 {
+    width: 100%;
+  }
+
+  .wkttl {
+    width: 40%;
+  }
+  
+  .Wimage {
+    width: 60%;
+  }
+  
+  .WKdetail p {
+    margin-bottom: 0;
+  }
+  
+  .WKT {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 5rempx;
+  }
 }
 
-.Enclipe2 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 40em;
-top: 50em;
-background: #edecff;
-filter: blur(3em);
-}
-
-.navL li {
-padding-left: 1rem;
-}
-button {
-font-size: 1rem;
-width: 100%;
-}
-
-.navSpace {
-width: 0;
-height: 0;
-}
-
-.nav2 {
-width: 100%;
-}
-
-.Title {
-justify-content: center;
-}
-.social {
-order: 0;
-}
-.work1 {
-width: 100%;
-}
-.wkttl {
-width: 40%;
-}
-
-.Wimage {
-width: 60%;
-}
-
-.WKdetail p {
-margin-bottom: 0;
-}
-
-.WKT {
-margin-bottom: 1rem;
-margin-top: 1rem;
-font-size: 2.5rem;
-line-height: 5rempx;
-}
-}
 /* MAX-WITHDTH 350PX
 Mearnt for Mobile Phones of all sizes */
 @media (max-width: 45em) {
-html {
-font-size: 16px;
-}
-body {
-max-width: 45em;
-}
+  html {
+    font-size: 16px;
+  }
+  body {
+    max-width: 45em;
+  }
+  
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+  
+  .nav {
+    height: 10rem;
+  }
+  .navA {
+    height: 4rem;
+  }
+  .navL li {
+    float: none;
+    justify-content: right;
+  }
+  .container-1 {
+    width: 95%;
+    margin: auto;
+  }
+  .Wimage {
+    height: 40%;
+    width: 92%;
+  }
+  
+  .wkttl {
+    height: 60%;
+    width: 95%;
+  }
+  
+  .wfoot {
+    margin-top: 2em;
+  }
+  
+  .works {
+    margin-top: rem;
+    border-color: rgb(167, 161, 161);
+    height: 881vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95%;
+    grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
+    grid-gap: 6rem;
+    grid-template-areas:
+   "title"
+   "main1"
+   "main2"
+   "main3"
+   "main4"
+   "contact"
+   "footer";
+  }
+  button {
+    width: 45%;
+    font-size: 1rem;
+  }
+    .Title {
+      font-size: 2.6rem;
+    }
 
-.Enclipe1 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 0.3em;
-top: 10em;
-background: #edecff;
-filter: blur(3em);
-}
+  .work1 {
+    grid-area: main1;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
 
-.Enclipe2 {
-position: absolute;
-width: 10em;
-height: 10em;
-left: 20em;
-top: 50em;
-background: #edecff;
-filter: blur(3em);
-}
+  .work2 {
+    grid-area: main2;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.nav {
-height: 10rem;
-}
-.navA {
-height: 4rem;
-}
-.navL li {
-float: none;
-justify-content: right;
-}
-.container-1 {
-width: 95%;
-margin: auto;
-}
-.Wimage {
-height: 40%;
-width: 92%;
-}
+  .work3 {
+    grid-area: main3;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
 
-.wkttl {
-height: 60%;
-width: 95%;
-}
+  .work4 {
+    grid-area: main4;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.wfoot {
-margin-top: 2em;
-}
+  .Contact-Form {
+    grid-area: contact;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+  }
 
-.works {
-margin-top: rem;
-border-color: rgb(167, 161, 161);
-height: 881vh;
-display: grid;
-justify-content: center;
-grid-template-columns: 95%;
-grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
-grid-gap: 6rem;
-grid-template-areas:
-"title"
-"main1"
-"main2"
-"main3"
-"main4"
-"contact"
-"footer";
-}
-button {
-width: 45%;
-font-size: 1rem;
-}
-.Title {
-font-size: 2.6rem;
-}
+  textarea {
+    width: 28em;
+  }
 
-.work1 {
-grid-area: main1;
-width: 100%;
-display: flex;
-flex-flow: column nowrap;
-}
+  #names {
+    width: 26em;
+  }
 
-.work2 {
-grid-area: main2;
-width: 100%;
-display: flex;
-flex-direction: column-reverse;
-}
+  /* Email Input */
+  #email {
+    width: 26em;
+  }
 
-.work3 {
-grid-area: main3;
-width: 100%;
-display: flex;
-flex-flow: column nowrap;
-}
-
-.work4 {
-grid-area: main4;
-width: 100%;
-display: flex;
-flex-direction: column-reverse;
-}
-
-.Contact-Form {
-grid-area: contact;
-width: 100%;
-display: flex;
-flex-flow: column nowrap;
-align-content: center;
-align-items: center;
-}
-
-textarea {
-width: 28em;
-}
-
-#names {
-width: 26em;
-}
-
-/* Email Input */
-#email {
-width: 26em;
-}
-
-.Tech-list {
-margin: auto;
-width: 50%;
-display: flex;
-flex-flow: row wrap;
-justify-content: space-between;
-}
+  .Tech-list {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 }
