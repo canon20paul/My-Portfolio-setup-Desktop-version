@@ -486,7 +486,7 @@ MAX-WITHDTH 650PX */
   html {
     font-size: 14px;
   }
-  
+
   .Enclipe1 {
     position: absolute;
     width: 10em;
@@ -496,7 +496,7 @@ MAX-WITHDTH 650PX */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .Enclipe2 {
     position: absolute;
     width: 10em;
@@ -506,7 +506,7 @@ MAX-WITHDTH 650PX */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .navL li {
     padding-left: 1rem;
   }
@@ -515,40 +515,40 @@ MAX-WITHDTH 650PX */
     font-size: 1rem;
     width: 100%;
   }
-  
+
   .navSpace {
     width: 0;
     height: 0;
   }
-  
+
   .nav2 {
     width: 100%;
   }
-  
+
   .Title {
     justify-content: center;
   }
-  
+ 
   .social {
     order: 0;
   }
-  
+
   .work1 {
     width: 100%;
   }
-  
+
   .wkttl {
     width: 40%;
   }
-  
+
   .Wimage {
     width: 60%;
   }
-  
+
   .WKdetail p {
     margin-bottom: 0;
   }
-  
+
   .WKT {
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -573,7 +573,7 @@ like Tabs */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .Enclipe2 {
     position: absolute;
     width: 10em;
@@ -583,7 +583,7 @@ like Tabs */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .navL li {
     padding-left: 1rem;
   }
@@ -592,40 +592,40 @@ like Tabs */
     font-size: 1rem;
     width: 100%;
   }
-  
+
   .navSpace {
     width: 0;
     height: 0;
   }
-  
+
   .nav2 {
     width: 100%;
   }
-  
+
   .Title {
     justify-content: center;
   }
-  
+
   .social {
     order: 0;
   }
-  
+
   .work1 {
     width: 100%;
   }
-  
+
   .wkttl {
     width: 40%;
   }
-  
+
   .Wimage {
     width: 60%;
   }
-  
+
   .WKdetail p {
     margin-bottom: 0;
   }
-  
+
   .WKT {
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -644,7 +644,7 @@ Mearnt for Mobile Phones of all sizes */
   body {
     max-width: 45em;
   }
-  
+
   .Enclipe1 {
     position: absolute;
     width: 10em;
@@ -654,7 +654,7 @@ Mearnt for Mobile Phones of all sizes */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .Enclipe2 {
     position: absolute;
     width: 10em;
@@ -664,39 +664,39 @@ Mearnt for Mobile Phones of all sizes */
     background: #edecff;
     filter: blur(3em);
   }
-  
+
   .nav {
     height: 10rem;
   }
-  
+
   .navA {
     height: 4rem;
   }
-  
+
   .navL li {
     float: none;
     justify-content: right;
   }
-  
+
   .container-1 {
     width: 95%;
     margin: auto;
   }
-  
+
   .Wimage {
     height: 40%;
     width: 92%;
   }
-  
+
   .wkttl {
     height: 60%;
     width: 95%;
   }
-  
+
   .wfoot {
     margin-top: 2em;
   }
-  
+
   .works {
     margin-top: rem;
     border-color: rgb(167, 161, 161);
