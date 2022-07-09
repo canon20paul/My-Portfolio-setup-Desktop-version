@@ -211,7 +211,7 @@ button:hover {
   background: #6a65fa;
 }
 
-button:Focus {
+button:focus {
   background: #221bfc;
 }
 
