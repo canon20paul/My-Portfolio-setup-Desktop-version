@@ -152,7 +152,7 @@ li {
 }
 
 .HL {
-  font-family: Roboto,  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto,  BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 43rem;
   font-size: 1.1rem;
@@ -486,7 +486,7 @@ MAX-WITHDTH 650PX */
   html {
     font-size: 14px;
   }
-    
+  
   .Enclipe1 {
     position: absolute;
     width: 10em;
@@ -508,7 +508,7 @@ MAX-WITHDTH 650PX */
   }
   
   .navL li {
-     padding-left: 1rem;
+    padding-left: 1rem;
   }
 
   button {
@@ -528,12 +528,15 @@ MAX-WITHDTH 650PX */
   .Title {
     justify-content: center;
   }
+  
   .social {
     order: 0;
   }
+  
   .work1 {
     width: 100%;
   }
+  
   .wkttl {
     width: 40%;
   }
@@ -557,6 +560,7 @@ MAX-WITHDTH 650PX */
 /* Mearnt for Small to Medium sized gadgets
 like Tabs */
 @media (max-width: 60rem) {
+
   html {
     font-size: 11px;
   }
@@ -609,7 +613,7 @@ like Tabs */
   .work1 {
     width: 100%;
   }
-
+  
   .wkttl {
     width: 40%;
   }
@@ -663,13 +667,16 @@ Mearnt for Mobile Phones of all sizes */
   .nav {
     height: 10rem;
   }
+  
   .navA {
     height: 4rem;
   }
+  
   .navL li {
     float: none;
     justify-content: right;
   }
+  
   .container-1 {
     width: 95%;
     margin: auto;
@@ -691,13 +698,14 @@ Mearnt for Mobile Phones of all sizes */
   .works {
     margin-top: rem;
     border-color: rgb(167, 161, 161);
-    height: 881vh;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 95%;
-    grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
-    grid-gap: 6rem;
-    grid-template-areas:
+      height: 881vh;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 95%;
+      grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
+      grid-gap: 6rem;
+      grid-template-areas:
+      
    "title"
    "main1"
    "main2"
@@ -705,6 +713,7 @@ Mearnt for Mobile Phones of all sizes */
    "main4"
    "contact"
    "footer";
+
   }
   button {
     width: 45%;
