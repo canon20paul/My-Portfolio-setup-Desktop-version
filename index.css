@@ -1,17 +1,31 @@
 html {
-    font-size: 1rem;
-    font-family: sans-serif;
-    color:#ffffff;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  
 }
 
-a:link, a:visited , a:hover ,a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
-  text-decoration: none; color:#ffffff; 
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Main Body Styling */
+body {
+  background-color: #191765;
+  color: #ffffff;
+  font-size: 1rem;
+  
+    
 }
 
 img:hover {
- border: 0.2rem solid red;
- border-radius: 50%;
+  border: 0.2rem solid red;
+  border-radius: 50%;
 }
 
 * {
@@ -21,57 +35,51 @@ img:hover {
 }
 
 /* Beginning of TOPOGRAPHY */
-h1{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 43.75rem;
-font-size: 5.625rem;
-line-height: 6.5625rem;
-text-align: center;
-color: #9391FF;
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 43.75rem;
+  font-size: 5.625rem;
+  line-height: 6.5625rem;
+  text-align: center;
+  color: #9391ff;
 }
 
 /* Header Softwear Developer>>> Topography */
 .HSD {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 31.25rem;
   font-size: 2.5rem;
   line-height: 2.9375rem;
   text-align: center;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 /* Main Description>>> Topography */
 .Desc {
   margin-top: 6em;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 25rem;
   font-size: 1.25rem;
   line-height: 2rem;
   text-align: center;
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 /* Main Header */
-.HD{
-  margin-top: 1.5em;
+.HD {
+  margin-top: 0.5rem;
   margin-bottom: 0.2em;
 }
-/* Main Body Styling */
-body {
-  background-color: #191765;
-  color: #ffffff;
-  min-width: 320px;
-  }
 
-.flme {
-    border: 2px solid red;
+.flame {
+  border: 2px solid red;
 }
 
 /* Vertical Line */
 .HRL {
-  border: 2px solid  rgb(53, 51, 51);
+  border: 2px solid rgb(53, 51, 51);
   width: 80%;
   margin: auto;
   margin-top: 2.5em;
@@ -79,23 +87,25 @@ body {
 }
 /* Top Navigation Bar */
 nav {
-  width:90%;
+  width: 90%;
   height: 3rem;
-  display: flex;  
+  display: flex;
   margin: 0 auto;
   align-items: center;
   font-size: 1rem;
 }
-.nav1 {
-    width:90%;
-    display: flex;  
-    margin: 0 auto;
-    justify-content: center;
-    font-size: 1rem;
-  }
-
+.nav2 {
+  width: 80%;
+  height: 6rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 6rem;
+  
+}
 .navA {
-  width:50%;
+  width: 50%;
   float: right;
 }
 
@@ -113,338 +123,355 @@ nav {
   width: 5em;
   height: 0.001em;
 }
+
 UL {
   list-style-type: none;
   margin-bottom: 0;
+  margin-left: -2rem
 }
 /* Main Section */
 .section1 {
-  width:100%;
+  width: 100%;
+  margin: auto;
 }
+
 /* Main Container-1 */
 .container-1 {
   width: 35%;
-  min-width: 320px;
   margin: auto;
 }
 
 li {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14.6667px;
   line-height: 28px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
-} 
+  color: #ffffff;
+  padding-right: 1rem;
+  
+}
 
 .HL {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 70043rem;
+  font-weight: 43rem;
   font-size: 1.1rem;
   line-height: 1.8rem;
   display: flex;
   align-items: center;
-  color: #9390FF;
-  }
+  color: #9390ff;
+}
 
 .Tech-list {
   width: 100%;
   display: flex;
-  justify-content:space-between;
-  }
+  justify-content: space-between;
+}
 
-.Enclipe1{
-    position: absolute;
-    width: 184px;
-    height: 184px;
-    left: 69px;
-    top: 237px;
-    background: #EDECFF;
-    filter: blur(50px);
+.Enclipe1 {
+  position: absolute;
+  width: 184px;
+  height: 184px;
+  left: 69px;
+  top: 237px;
+  background: #edecff;
+  filter: blur(50px);
 }
 
 .Enclipe2 {
-    position: absolute;
-    width: 226px;
-    height: 226px;
-    left: 1143px;
-    top: 546px;
-    background: #EDECFF;
-    filter: blur(50px);
+  position: absolute;
+  width: 226px;
+  height: 226px;
+  left: 1143px;
+  top: 546px;
+  background: #edecff;
+  filter: blur(50px);
 }
+
 .works {
-    
-    margin-top: 10rem auto;  
-    border-color: #f00;
-    height: t00vh;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 80%;
-    grid-template-rows: 15rem 27rem 27rem 27rem 27rem 50rem 13.5rem;
-    grid-gap: 1rem;
-    grid-template-areas:
-      "title"
-      "main1"
-      "main2"
-      "main3"
-      "main4"
-      "contact"
-      "footer";
+  margin-top: rem;
+  border-color: #f00;
+  height: 551vh;
+  display: grid;
+  justify-content: center;
+  
+  grid-template-columns: 80%;
+  grid-template-rows: 15rem 30rem 30rem 30rem 30rem 50rem 5.5rem;
+  grid-gap: 6rem;
+  grid-template-areas:
+    "title"
+    "main1"
+    "main2"
+    "main3"
+    "main4"
+    "contact"
+    "footer";
 }
 
 button {
- 
-    background: #7d73fc;
-    border-color: transparent;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #edecff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 5em;
+  height: 1.5em;
+  background: #9390FF;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.btnC {
+  width:100%;
+  }
+  .buttonS {
+    font-size: 2rem;
    
-    padding: 20px 23px;
-  }
-
-
-  
-  .wfoot ul {
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .wfoot {
-    
-    margin: 0;
-    margin-top: 0;
-    width: 330px;
-    height: 50px;
-    font-family: inter, "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 20px;
-    color: #fff;
-    
-  }
-
-  textarea {
-    min-width: 20em;
-    min-height: 6.25em;
-    resize: none;
-    columns: 60;
-    padding: 0.7rem;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #f8f8f8;
-    font-size: 1.05rem;
-    text-align: left;
-    color: #81818c;
-  }
-  
-  #names {
-    width: 46.5em;
-    max-lines: .6rem;
-    position: relative;
-    background: #f7f3ff;
-    
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1rem;
-    padding: 1rem;
-    line-height: 1.8rem;
-    text-align: left;
-}
-  
-  /* Email Input */
-  #email {
-    color: #191765;
-    width: 46.5em;
-    position: relative;
-    background: #f7f3ff;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1rem;
-    padding: 1rem;
-    line-height: 1.8em;
-    text-align: left;
-}
-  
-  /* contact Address Title */
-  .Cname {
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    color: #7d73fc;
-    font-size: 17px;
-    line-height: 80px;
-    letter-spacing: 0.3700000047683716px;
-    text-align: center;
-    font-style: normal;
+   
+    width: 10rem;
+    height: 5.5rem;
+    background: #9390FF;
     flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-  
-  /* Owner contact email Address */
-  .Femail {
-    width: 100%;
-    padding-bottom: 0;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 50;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
     
   }
-  
-  form {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-content: center;
-    align-items: center;
-    margin-top: 1.8rem;
-  }
-  
-  .lkd {
-    display: flex;
-    border-width: 0;
-    padding: 0;
-    width: 20px;
-    height: 19px;
-    margin: 0;
-  }
-  
-  .lki {
-    position: static;
-    width: 5px;
-    height: 18px;
-    margin: 0;
-    padding: 0;
-    margin-top: -15px;
-  }
-  
-  img:hover {
-    background-color: hsl(308, 89%, 49%);
-  }
-  
 
-  .fa {
-    color: #fff;
-  }
+.WKT {
+ margin-bottom: 3rem;
+margin-top: 3rem;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 2.5rem;
+line-height: 4.3rem;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.wfoot ul {
+  position: relative;
+  padding-right: 1rem;
   
-  .fa:hover {
-    color: #f00;
-  }
+  
+}
+
+.wfoot {
+  font-family: inter, "Roboto", sans-serif;
+  font-style: normal;
+    font-size: 1.2rem;
+  line-height: 1rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  
+  
+}
+
+textarea {
+  width: 100%;
+  min-width: 2em;
+  min-height: 6.25em;
+  resize: none;
+  columns: 60;
+  padding: 0.7rem;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  text-align: left;
+  color: #81818c;
+}
+
+#names {
+  width: 46.5em;
+  max-lines: 0.6rem;
+  position: relative;
+  background: #f7f3ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+/* Email Input */
+#email {
+  color: #191765;
+  width: 46.5em;
+  position: relative;
+  background: #f7f3ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+/* contact Address Title */
+.Cname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 17px;
+  line-height: 80px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Owner contact email Address */
+.Femail {
+  width: 100%;
+  padding-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 10rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+.lkd {
+  display: flex;
+  border-width: 0;
+  padding: 0;
+  width: 20px;
+  height: 19px;
+  margin: 0;
+}
+
+.lki {
+  position: static;
+  width: 5px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+}
+
+img:hover {
+  background-color: hsl(308, 89%, 49%);
+}
+
+.fa {
+  color: #fff;
+}
+
+.fa:hover {
+  color: #f00;
+}
+
 .Title {
   grid-area: title;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 43.75rem;
   font-size: 3rem;
   line-height: 1147.125rem;
   display: flex;
   align-items: center;
-  color: #9390FF;
-
-
+  color: #9390ff;
 }
 
-.Wimage img {
-    width:40rem;
-    padding: 0.5rem;
+.Wimage {
+   width: 60%;
+   background-color: #fff;
+   border: 0;
+   padding: 1rem;
 }
-
 /* Work Description */
 .wkttl {
-    padding-top: 0.7em;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 50;
-    font-size: 2.5rem;
-    line-height: 2.75rempx;
-    display: flex;
-    align-items: center;
-    margin-left: 0;
-    color: #fff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-  
-  /* Work ) Project Description */
-  .WKdetail p {
-    padding-bottom: 1.7em;
-    padding-top: 1em;
-    width: 30rem;
-    text-align: center;
-    margin-top: 0;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.75rem;
-    color: #dcdce8;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .Cndetail p {
-    padding-bottom: 1.7em;
-    padding-top: 1em;
-    width: 30rem;
-    text-align: center;
-    margin-top: 0;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.75rem;
-    color: #dcdce8;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .work1 {
-    grid-area: main1;
-    display: flex;
-    flex-flow: column wrap;
-    
-
+  width:40%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #fff;
+  padding-left: 1rem;
 }
+
+.wkttl h3 {
+  width: 95%;
+}
+
+/* Work ) Project Description */
+.WKdetail p {
+  width: 100%;
+  text-align:left;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.16rem;
+  color: #dcdce8;
+ line-height: 1.75rem;
+  margin-bottom: 3rem;
+  
+}
+
+.Cndetail p {
+  padding-bottom: 1.7em;
+  padding-top: 1em;
+  width: 30rem;
+  text-align: center;
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  color: #dcdce8;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work1 {
+  grid-area: main1;
+  width: 100%;
+ display: flex;
+  }
 
 .work2 {
   grid-area: main2;
-  display: flex;
-  flex-flow: column wrap;
-    
-
-}
+  width: 100%;
+ display: flex;
+  }
 
 .work3 {
   grid-area: main3;
-  display: flex;
-  flex-flow: column wrap;
-}
+  width: 100%;
+ display: flex;
+  }
 
 .work4 {
   grid-area: main4;
+  width: 100%;
   display: flex;
-  flex-flow: column wrap;
-}
+   }
 
 .Contact-Form {
   grid-area: contact;
@@ -455,13 +482,118 @@ button {
   align-items: center;
 }
 
-
 .Footer {
-    grid-area: footer;
-    width:100%;
-    display: flex;
-    flex-flow: column;
+  grid-area: footer;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
-   
+}
+/* MEDIA QUERIES
+MAX-WITHDTH 450PX */
+@media  (Max-width: 77rem) {
+  html{font-size: 14px;}
+ body{background-color: rgb(231, 18, 125)}
+
+.navL li {
+  padding-left: 1rem;
+}
+button{
+  font-size: 1rem;
+  width: 100%;
+}
+
+.navSpace {
+  width: 0;
+  height: 0;
+}
+
+.nav2 {
+width: 100%;
+}
+
+.Title {
+  justify-content: center;
+}
+.social {
+  order: 0;
+}
+.work1 {
+  width: 100%;
+}
+.wkttl{
+  width:40%;
+}
+
+.Wimage {
+  width: 60%;
+}
+
+.WKdetail p {
+  margin-bottom: 0;
+}  
+
+.WKT {
+  margin-bottom: 1rem;
+ margin-top: 1rem;
+ font-size: 2.5rem;
+ line-height: 5rempx;
+ }
+
+}
+
+@media  (Max-width: 60rem) {
+  html{font-size: 11px;}
+ body{background-color: rgb(231, 114, 18)}
+
+.navL li {
+  padding-left: 1rem;
+}
+button{
+  font-size: 1rem;
+  width: 100%;
+}
+
+.navSpace {
+  width: 0;
+  height: 0;
+}
+
+.nav2 {
+width: 100%;
+}
+
+.Title {
+  justify-content: center;
+}
+.social {
+  order: 0;
+}
+.work1 {
+  width: 100%;
+}
+.wkttl{
+  width:40%;
+}
+
+.Wimage {
+  width: 60%;
+}
+
+.WKdetail p {
+  margin-bottom: 0;
+}  
+
+.WKT {
+  margin-bottom: 1rem;
+ margin-top: 1rem;
+ font-size: 2.5rem;
+ line-height: 5rempx;
+ }
+
+}
+/* MAX-WITHDTH 350PX */ 
+  @media  (Max-width: 45em) {
+  body{background-color: rgb(4, 77, 7)}
 }
