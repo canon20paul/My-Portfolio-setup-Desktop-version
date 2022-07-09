@@ -96,7 +96,7 @@ nav {
   height: 6rem;
   display: flex;
   margin: 0 auto;
-  justify-content:space-around;
+  justify-content: space-around;
   font-size: 1rem;
   margin-top: 6rem;
 }
@@ -208,14 +208,15 @@ li {
 }
 
 button:hover {
-   background: #6a65fa;
+  background: #6a65fa;
 }
+
 button:Focus {
   background: #221bfc;
 }
 
-button:Disabled {
-  background: #000000;
+button:disabled {
+  background: #000;
 }
 
 .buttonW {
