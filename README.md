@@ -1,10 +1,8 @@
-# My-Portfolio-setup-Desktop-version
-# 1
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # My-Portfolio-setup-Desktop-version & Mobile
 
-> A Personl Portifolio for Mobile Devices.
+> A Personl Portifolio for All Devices including Mobile Devices.
 
 
 ## Built With
@@ -13,9 +11,9 @@
 - Github
 - VScode
 
-## Live Demo (if available)
+## Live Demo (checkout the Live Demo Below)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://www.loom.com/share/67c15e1fd2ae4b09805e50bf36fd98a8)
 
 
 ## Getting Started
@@ -47,7 +45,7 @@ Capture an individual's Work Portofolio.
 -Tested on devices of as low as 300pxs.
 -Tested on screens as large as 1200pxs
 ### Deployment
-Any webhost
+Any webhost Preferably Github pages
 
 
 ## Authors
