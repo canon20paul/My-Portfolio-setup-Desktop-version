@@ -18,12 +18,11 @@ body {
   background-color: #191765;
   color: #fff;
   font-size: 1rem;
-  
 }
 
 img:hover {
   border: 0.2rem solid red;
-  border-style:double;
+  border-style: double;
   border-radius: 50%;
   transform: scalex(1.5);
 }
@@ -32,11 +31,12 @@ img:hover {
   padding: o;
   margin: 0;
   border: 0;
-  }
+}
 
 /* Beginning of TOPOGRAPHY */
 h1 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 43.75rem;
   font-size: 4.525rem;
@@ -47,7 +47,8 @@ h1 {
 
 /* Header Softwear Developer>>> Topography */
 .HSD {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 31.25rem;
   font-size: 2.2rem;
@@ -59,7 +60,8 @@ h1 {
 /* Main Description>>> Topography */
 .Desc {
   margin-top: 6em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 25rem;
   font-size: 1.25rem;
@@ -125,91 +127,88 @@ ul {
 }
 
 /* (A) NAVIGATION BAR */
-.RootBar { display: none;
- 
-    
- }
- 
- /* (B) FIRST LEVEL ITEMS */
- .RootBar a, .RootBar .Hamburg {
-   width: 100%;
-   padding: 40px;
-   padding-bottom: 0px;
-   padding-top: 100px;
-   color: #fff;
-   text-decoration: none;
-   background:  #191765;
-   
- }
- .Hamburg a:hover{
-   color: #ffe945;
-   cursor: pointer;
- }
- 
- /* Dropdown  Menu*/
- .RootBar .Hamburg { position: relative; }
- .Dropmenu {
-  padding: 5px;
-   width:100%;
-   position: absolute;
-   top: 50%; right: 0;
-   display: none;
- }
- .Dropmenu .Hmenu {
-   display: flex;
-   justify-content: space-between;
-   box-sizing: border-box;
-   font-size: 1.5rem;
- }
- span {
-  color: #9390FF;;
- }
- .Hamburg:hover .Dropmenu { display: block; }
- 
- .lines {
-     position: absolute;
-     right: 10%;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     width: 40px;
-     height: 30px;
- }
- .line {
-     background-color: #fff;
-     height: 5px;
-     width: 100%;
-     
-  }
-  
- .H1:hover{
-    z-index: 1;
-    transition: transform 1ms;
-    transform: Rotate(45deg);
-    
-  }
-  .H3:hover{
-    z-index: 1;
-    transition: transform 1ms;
-    transform: Rotate(-45deg);
+.RootBar {
+  display: none;
+}
 
-  }
-  
-  /* .H1:hover{
-    background-color:transparent;
-  }
-  .H2:hover{
-    transform: Rotate(-45deg);
-  }
-  .H3:hover{
-    transform: Rotate(-45deg);
-  } */
+/* (B) FIRST LEVEL ITEMS */
+.RootBar a,
+.RootBar .Hamburg {
+  width: 100%;
+  padding: 40px;
+  padding-bottom: 0px;
+  padding-top: 40px;
+  color: #fff;
+  text-decoration: none;
+  background: #191765;
+}
+.Hamburg a:hover {
+  color: #ffe945;
+  cursor: pointer;
+}
+
+/* Dropdown  Menu*/
+.RootBar .Hamburg {
+  position: relative;
+}
+
+.Dropmenu {
+  padding: 5px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+}
+
+.xx {
+  font-size: 3rem;
+  color: #fff;
+  float: right;
+}
+/* Drop down menu for small screens */
+.Dropmenu .Hmenu {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+span {
+  color: #9390ff;
+}
+
+.Hamburg:hover .Dropmenu {
+  display: block;
+}
+
+.lines {
+  position: absolute;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+}
+
+.line {
+  background-color: #fff;
+  height: 5px;
+  width: 100%;
+}
+
+.H1:her {
+  z-index: 1;
+  transition: transform 1ms;
+  transform: Rotate(45deg);
+}
 
 /* Main Section */
 .section1 {
   width: 100%;
   margin: auto;
-  }
+}
 
 /* Main Container-1 */
 .container-1 {
@@ -218,7 +217,8 @@ ul {
 }
 
 li {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -235,7 +235,7 @@ li {
 }
 
 .HL {
-  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 43rem;
   font-size: 1.1rem;
@@ -248,7 +248,7 @@ li {
 .Tech-list {
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .Enclipe1 {
@@ -273,7 +273,6 @@ li {
 
 .works {
   margin-top: rem;
-  border-color: #f00;
   height: 551vh;
   display: grid;
   justify-content: center;
@@ -290,16 +289,13 @@ li {
     "footer";
 }
 
+/* button color selectors */
 button:hover {
-  background: #6a65fa;
-}
-
-button:focus {
   background: #221bfc;
 }
 
-button:disabled {
-  background: #000;
+button:focus {
+  background: #030316;
 }
 
 .buttonW {
@@ -308,7 +304,7 @@ button:disabled {
   width: 7rem;
   height: 3rem;
   text-align: center;
-  background: #9390ff;
+  background: #7d73fc;
   flex: none;
 }
 
@@ -322,14 +318,14 @@ button:disabled {
   width: 9rem;
   height: 3rem;
   text-align: center;
-  background: #9390ff;
+  background: #7d73fc;
   flex: none;
 }
 
 .WKT {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -340,14 +336,13 @@ button:disabled {
 }
 
 .wfoot ul {
-  position: relative;
   display: inline;
-  float: right;
-  
 }
+
 .wfoot ul li {
   display: inline;
-  float: right;
+  float: left;
+  padding-bottom: 1rem;
 }
 
 .wfoot {
@@ -358,8 +353,7 @@ button:disabled {
   color: #fff;
   margin-bottom: 1rem;
   margin-left: 0;
-  width:100%;
-  
+  width: 100%;
 }
 
 textarea {
@@ -807,14 +801,13 @@ Mearnt for Mobile Phones of all sizes */
   .works {
     margin-top: rem;
     border-color: rgb(167, 161, 161);
-    height: 881vh;
+    height: 695vh;
     display: grid;
     justify-content: center;
     grid-template-columns: 95%;
     grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
     grid-gap: 6rem;
     grid-template-areas:
-
       "title"
       "main1"
       "main2"
@@ -900,6 +893,25 @@ Mearnt for Mobile Phones of all sizes */
   }
 
   .navEnv {
-      display: none;
+    display: none;
+  }
+  
+  .arrow {
+    position: absolute;
+    bottom: -35em;
+  }
+
+  .btm img {
+    width: 1.5em;
+  }
+
+  .top {
+    display: none;
+    left: 5em;
+  }
+
+  h1::after {
+    display: inline-block;
+    text-transform: uppercase;
   }
 }
