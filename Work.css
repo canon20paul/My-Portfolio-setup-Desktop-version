@@ -29,12 +29,11 @@ a:active {
 }
 
 section {
-  margin: auto;
-  margin-top: 5.1em;
+  margin:auto;
   position: absolute;
   width: 86%;
   height: 98rem;
-  left: 11.8rem;
+  left: 0;
   top: 9.33rem;
   right: 0;
   background: rgba(255, 255, 255, 0.16);
@@ -43,7 +42,6 @@ section {
 }
 
 .frame {
-  margin-top: 0;
   height: 180vh;
   display: grid;
   justify-content: center;
@@ -82,7 +80,7 @@ section {
 
 .picture {
   grid-area: picture;
-  background-image: url("images/Portfolio.png");
+  background-image: url("images/Portfolio.png");  
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
