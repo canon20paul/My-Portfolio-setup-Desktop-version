@@ -80,7 +80,7 @@ section {
 
 .picture {
   grid-area: picture;
-  background-image: url("images/Portfolio.png"); 
+  background-image: url("images/Portfolio.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
