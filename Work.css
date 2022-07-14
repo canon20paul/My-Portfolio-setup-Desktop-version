@@ -88,15 +88,15 @@ section {
 
 .detail {
   grid-area: detail;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
   gap: 2em;
-  position: absolute;
   width: 80%;
   left: calc(50% - 77% / 2);
-  top: 57%;
+  top: 87%;
   font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -199,9 +199,19 @@ button:hover {
 
 /* Mearnt for Small to Medium sized gadgets
 like Tabs */
-@media (max-width: 70em) {
+@media (max-width: 90em) {
   .detail {
-    top: 30%;
+    margin-top: 0%;
+    width: 80%;
+  }
+}
+
+/* Mearnt for Small to Medium sized gadgets
+like Tabs */
+@media (max-width: 60em) {
+  .detail {
+    margin-top: -23%;
+    width: 100%;
   }
 }
 
@@ -209,7 +219,8 @@ like Tabs */
 Mearnt for Mobile Phones of all sizes */
 @media (max-width: 45em) {
   .detail {
-    top: 30%;
+    margin-top: -53%;
+    width: 100%;
   }
 
   .ttl {
