@@ -292,7 +292,7 @@ button:hover {
   background: #221bfc;
 }
 
-button:focus {
+button:active {
   background: #030316;
 }
 
@@ -890,7 +890,7 @@ Mearnt for Mobile Phones of all sizes */
   .navEnv {
     display: none;
   }
-  
+
   .arrow {
     position: absolute;
     bottom: -35em;
