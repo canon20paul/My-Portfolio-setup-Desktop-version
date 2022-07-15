@@ -1,0 +1,1004 @@
+html {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 16px;
+  min-height: 100%;
+}
+
+/* Narmalizes Appearebce of all associated Links */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main Body Styling */
+body {
+  background-color: #191765;
+  color: #fff;
+  font-size: 1rem;
+}
+
+img:hover {
+  border: 0.2rem solid red;
+  border-style: double;
+  border-radius: 50%;
+  transform: scaleX(1.5);
+}
+
+* {
+  padding: o;
+  margin: 0;
+  border: 0;
+}
+
+/* Beginning of TOPOGRAPHY */
+h1 {
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 43.75rem;
+  font-size: 5.525rem;
+  line-height: 6.5625rem;
+  text-align: center;
+  color: #9391ff;
+}
+
+h2 {
+  padding-top: 2.5em;
+  margin-bottom: -1em;
+}
+
+/* Header Softwear Developer>>> Topography */
+.HSD {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 31.25rem;
+  font-size: 2.2rem;
+  line-height: 2.9375rem;
+  text-align: center;
+  color: #dfe1e6;
+}
+
+/* Main Description>>> Topography */
+.Desc {
+  margin-top: 6em;
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #b3bac5;
+}
+
+/* Main Header */
+.HD {
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+}
+
+/* Vertical Line */
+.HRL {
+  border: 1px solid #646369;
+  width: 100%;
+  margin: auto;
+  margin-top: 2.5em;
+  margin-bottom: 2.5rem;
+}
+
+/* Bottom most Vertical Line */
+.HRL2 {
+  border: 1px solid #646369;
+  width: 99%;
+  margin: auto;
+}
+
+/* Bottom most SHORT Vertical Line */
+.HRL3 {
+  display: none;
+  border: 3px solid #0f0f0f;
+  width: 30%;
+  margin: auto;
+  border-radius: 13%;
+  margin-top: 1.5rem;
+}
+
+/* Top Navigation Bar */
+nav {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 1rem;
+  padding-right: 8.4rem;
+}
+
+/* Work, Down Arrow & Social Media Div */
+.div2 {
+  width: 80%;
+  height: 6rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  margin-top: 6rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  font-size: 0.5rem;
+}
+
+/* Position the Right side Part of the Top Nav Bar */
+.navA {
+  width: 50%;
+  float: right;
+}
+
+/* Positioning of John doe Log */
+.navB {
+  width: 40%;
+  float: left;
+  font-size: 1.3rem;
+  padding-left: 9rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: -2rem;
+}
+
+li {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-right: rem;
+}
+
+/* Nav Bar List */
+.navL li {
+  float: right;
+  padding-left: em;
+  padding-right: 2rem;
+}
+
+/* (A) NAVIGATION BAR */
+.RootBar {
+  display: none;
+}
+
+/* (B) FIRST LEVEL ITEMS */
+.RootBar a,
+.RootBar .Hamburg {
+  width: 100%;
+  padding: 40px;
+  padding-bottom: 0;
+  padding-top: 40px;
+  color: #fff;
+  text-decoration: none;
+  background: #191765;
+}
+
+.Hamburg a:hover {
+  color: #ffe945;
+  cursor: pointer;
+}
+
+/* Dropdown  Menu */
+.RootBar .Hamburg {
+  position: relative;
+}
+
+.Dropmenu {
+  padding: 5px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+}
+
+.xx {
+  font-size: 3rem;
+  color: #fff;
+  float: right;
+}
+
+/* Drop down menu for small screens */
+.Dropmenu .Hmenu {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+span {
+  color: #9390ff;
+}
+
+.Hamburg:hover .Dropmenu {
+  display: block;
+}
+
+.lines {
+  position: absolute;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+}
+
+.line {
+  background-color: #fff;
+  height: 2.5px;
+  width: 100%;
+}
+
+.H1:hover {
+  z-index: 1;
+  transition: transform 1ms;
+  transform: rotate(45deg);
+}
+
+/* Main Section */
+.section1 {
+  width: 100%;
+  margin: auto;
+}
+
+/* Main Container-1 */
+.container-1 {
+  width: 35%;
+  margin: auto;
+}
+
+/* Header for the .Tech-list */
+.HL {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 43rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  color: #9390ff;
+}
+
+/* Lists of Technology */
+.Tech-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Enclipe1 {
+  position: absolute;
+  width: 12em;
+  height: 12em;
+  left: 4em;
+  top: 15em;
+  background: #edecff;
+  filter: blur(1em);
+  border-radius: 50%;
+}
+
+.Enclipe2 {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 65em;
+  top: 67em;
+  background: #edecff;
+  filter: blur(3em);
+}
+
+.works {
+  margin-top: rem;
+  height: 551vh;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80%;
+  grid-template-rows: 20rem 30rem 30rem 30rem 30rem 50rem 5rem 5.5rem;
+  grid-gap: 6rem;
+  grid-template-areas:
+    "title"
+    "main1"
+    "main2"
+    "main3"
+    "main4"
+    "contact"
+    "LineF"
+    "footer";
+}
+
+/* button color selectors */
+button:hover {
+  background: #221bfc;
+}
+
+button:active {
+  background: #030316;
+}
+
+.buttonW {
+  font-size: 1rem;
+  color: white;
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  background: #7d73fc;
+  flex: none;
+}
+
+.btnC {
+  width: 100%;
+}
+
+.buttonS {
+  font-size: 1rem;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  text-align: center;
+  background: #7d73fc;
+  flex: none;
+  margin-top: 3rem;
+}
+
+.WKT {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 4.3rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.wfoot ul {
+  display: inline;
+}
+
+.wfoot ul li {
+  display: inline;
+  float: left;
+  padding-bottom: 1rem;
+}
+
+.wfoot {
+  font-family: inter, "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  min-width: 2em;
+  min-height: 6.25em;
+  resize: none;
+  columns: 60;
+  padding: 0.7rem;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  text-align: left;
+  color: #81818c;
+  margin-top: -1em;
+}
+
+#names {
+  width: 95%;
+  max-lines: 0.6rem;
+  position: relative;
+  background: #f7f3ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+/* Email Input */
+#email {
+  color: #191765;
+  width: 95%;
+  position: relative;
+  background: #f7f3ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+/* contact Address Title */
+.Cname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #9390ff;
+  font-size: 1.7rem;
+  line-height: 80px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 1rem;
+}
+
+/* Owner contact email Address */
+.Femail {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: left;
+  color: #ebebff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.lkd {
+  display: flex;
+  border-width: 0;
+  padding: 0;
+  width: 20px;
+  height: 19px;
+  margin: 0;
+}
+
+.lki {
+  position: static;
+  width: 5px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.fa {
+  color: #fff;
+}
+
+.fa:hover {
+  color: #f00;
+}
+
+.Title {
+  grid-area: title;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+  font-style: normal;
+  font-weight: 43.75rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  display: flex;
+  flex-flow: column;
+  align-content: flex-end;
+  color: #9390ff;
+}
+
+.Wimage {
+  width: 60%;
+  background-color: #fff;
+  border: 0;
+  padding: 1rem;
+}
+
+/* Work Description */
+.wkttl {
+  width: 40%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #fff;
+  padding-left: 1rem;
+}
+
+.wkttl h3 {
+  width: 95%;
+}
+
+/* Work ) Project Description */
+.WKdetail p {
+  width: 100%;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.16rem;
+  color: #dcdce8;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.Cndetail {
+  display: flex;
+  justify-content: center;
+}
+
+.Cndetail p {
+  padding-bottom: 5em;
+  padding-top: 1em;
+  width: 70%;
+  text-align: center;
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #dcdce8;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work1 {
+  grid-area: main1;
+  width: 100%;
+  display: flex;
+}
+
+.work2 {
+  grid-area: main2;
+  width: 100%;
+  display: flex;
+}
+
+.work3 {
+  grid-area: main3;
+  width: 100%;
+  display: flex;
+}
+
+.work4 {
+  grid-area: main4;
+  width: 100%;
+  display: flex;
+}
+
+.Contact-Form {
+  grid-area: contact;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.LineF {
+  grid-area: LineF;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.Footer {
+  grid-area: footer;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+}
+
+/* **************......... MEDIA QUERIES..........***************************
+MAX-WITHDTH 650PX */
+@media (max-width: 77rem) {
+  html {
+    font-size: 14px;
+  }
+
+  .HD {
+    font-size: 4.5rem;
+  }
+
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 55em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .navL li {
+    padding-left: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .navSpace {
+    width: 0;
+    height: 0;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .Title {
+    justify-content: center;
+  }
+
+  .social {
+    order: 0;
+  }
+
+  .work1 {
+    width: 100%;
+  }
+
+  .wkttl {
+    width: 40%;
+  }
+
+  .Wimage {
+    width: 60%;
+  }
+
+  .WKdetail p {
+    margin-bottom: 0;
+  }
+
+  .WKT {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+}
+
+/* Mearnt for Small to Medium sized gadgets
+like Tabs */
+@media (max-width: 65rem) {
+  html {
+    font-size: 11px;
+  }
+
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .HD {
+    font-size: 3.5rem;
+  }
+
+  .navL li {
+    padding-left: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .navSpace {
+    width: 0;
+    height: 0;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .Title {
+    justify-content: center;
+  }
+
+  .social {
+    order: 0;
+  }
+
+  .work1 {
+    width: 100%;
+  }
+
+  .wkttl {
+    width: 40%;
+  }
+
+  .Wimage {
+    width: 60%;
+  }
+
+  .WKdetail p {
+    margin-bottom: 0;
+  }
+
+  .WKT {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+}
+
+/* MAX-WITHDTH 350PX
+Mearnt for Mobile Phones of all sizes */
+@media (max-width: 45em) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    max-width: 45em;
+  }
+
+  .Enclipe1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 0.3em;
+    top: 10em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .Enclipe2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 50em;
+    background: #edecff;
+    filter: blur(3em);
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: flex-end;
+    height: 5rem;
+    width: 95%;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .div2 {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .navA {
+    height: 4rem;
+    display: none;
+  }
+
+  .navB {
+    margin-left: -5em;
+  }
+
+  .navL li {
+    float: none;
+    justify-content: right;
+  }
+
+  .RootBar {
+    margin-top: -5em;
+    display: flex;
+  }
+
+  .navEnv {
+    display: none;
+  }
+
+  .container-1 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Desc {
+    width: 65%;
+    margin-top: 4rem;
+  }
+
+  .Wimage {
+    height: 40%;
+    width: 92%;
+  }
+
+  .wkttl {
+    height: 60%;
+    width: 95%;
+  }
+
+  .wfoot {
+    margin-top: 2em;
+  }
+
+  .works {
+    margin-top: rem;
+    border-color: rgb(167, 161, 161);
+    height: 695vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95%;
+    grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
+    grid-gap: 2rem;
+    grid-template-areas:
+      "title"
+      "main1"
+      "main2"
+      "main3"
+      "main4"
+      "contact"
+      "footer";
+  }
+
+  /* Transforms "My recent work" in UPPERCASE */
+  .f {
+    text-transform: uppercase;
+  }
+
+  button {
+    width: 45%;
+    font-size: 1rem;
+  }
+
+  .Title {
+    font-size: 2.5rem;
+  }
+
+  .work1 {
+    grid-area: main1;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .work2 {
+    grid-area: main2;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .work3 {
+    grid-area: main3;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .work4 {
+    grid-area: main4;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Contact-Form {
+    grid-area: contact;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  textarea {
+    width: 28em;
+  }
+
+  #names {
+    width: 26em;
+  }
+
+  /* Email Input */
+  #email {
+    width: 26em;
+  }
+
+  .Tech-list {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: -32em;
+  }
+
+  .btm img {
+    width: 1.5em;
+  }
+
+  .top {
+    display: none;
+    left: 5em;
+  }
+
+  .Footer {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+  }
+
+  .social {
+    text-align: justify;
+  }
+
+  .HRL3 {
+    display: inline;
+  }
+
+  h1::after {
+    display: inline-block;
+    text-transform: uppercase;
+  }
+}
