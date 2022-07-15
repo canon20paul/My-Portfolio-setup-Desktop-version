@@ -89,21 +89,21 @@ h2 {
 }
 
 /* Bottom most Vertical Line */
-.HRL2{
+.HRL2 {
   border: 1px solid #646369;
   width: 99%;
   margin: auto;
 }
 
 /* Bottom most SHORT Vertical Line */
-.HRL3{
+.HRL3 {
   display: none;
   border: 3px solid #0f0f0f;
   width: 30%;
   margin: auto;
   border-radius: 13%;
   margin-top: 1.5rem;
-  }
+}
 
 /* Top Navigation Bar */
 nav {
@@ -115,8 +115,8 @@ nav {
   font-size: 1rem;
   padding-right: 8.4rem;
 }
-/* Work, Down Arrow & Social Media Div */
 
+/* Work, Down Arrow & Social Media Div */
 .div2 {
   width: 80%;
   height: 6rem;
@@ -126,10 +126,12 @@ nav {
   font-size: 1.2rem;
   margin-top: 6rem;
 }
+
 .social {
-  width: 10%;
   display: flex;
   justify-content: center;
+  text-align: right;
+  font-size: 0.5rem;
 }
 
 /* Position the Right side Part of the Top Nav Bar */
@@ -170,7 +172,6 @@ li {
   padding-left: em;
   padding-right: 2rem;
 }
-
 
 /* (A) NAVIGATION BAR */
 .RootBar {
@@ -404,7 +405,7 @@ textarea {
   font-size: 1rem;
   text-align: left;
   color: #81818c;
-  margin-top: -1em;;
+  margin-top: -1em;
 }
 
 #names {
@@ -440,7 +441,7 @@ textarea {
 .Cname {
   width: 100%;
   font-family: "Roboto", sans-serif;
-  color: #9390FF;
+  color: #9390ff;
   font-size: 1.7rem;
   line-height: 80px;
   letter-spacing: 0.3700000047683716px;
@@ -454,19 +455,12 @@ textarea {
 
 /* Owner contact email Address */
 .Femail {
-  width: 23%;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 30px;
   text-align: left;
   color: #ebebff;
-}
-
-.social {
-  width: 20%;
-  text-align: right;
-  font-size: 0.5rem;
 }
 
 form {
