@@ -61,7 +61,7 @@ h2 {
   color: #dfe1e6;
 }
 
-/* Animations, Transformations and Transitions 
+/* Animations, Transformations and Transitions
 Translates WORD Software developer */
 .HSD:hover {
   transform: scale(1.2, 1);
@@ -80,9 +80,9 @@ Translates WORD Software developer */
   to {
     transform: rotate(359deg);
   }
-
 }
-/* Tranforms work direction Arrows*/
+
+/* Tranforms work direction Arrows */
 .arrow {
   animation: ARROWS 1s alternate infinite ease-in;
 }
