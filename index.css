@@ -864,7 +864,7 @@ Mearnt for Mobile Phones of all sizes */
     margin-top: 4rem;
   }
 
-   .Wimage {
+  .Wimage {
     height: 40%;
     width: 92%;
   }
@@ -896,10 +896,10 @@ Mearnt for Mobile Phones of all sizes */
       "contact"
       "footer";
   }
-  
-   /* Transforms "My recent work" in UPPERCASE */
-.f {
-    text-transform: uppercase; 
+
+  /* Transforms "My recent work" in UPPERCASE */
+  .f {
+    text-transform: uppercase;
   }
 
   button {
@@ -996,9 +996,9 @@ Mearnt for Mobile Phones of all sizes */
   .HRL3 {
     display: inline;
   }
-  
+
   h1::after {
     display: inline-block;
     text-transform: uppercase;
-   }
+  }
 }
