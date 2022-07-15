@@ -5,6 +5,7 @@ html {
   min-height: 100%;
 }
 
+/* Narmalizes Appearebce of all associated Links */
 a:link,
 a:visited,
 a:hover,
@@ -38,10 +39,15 @@ h1 {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 43.75rem;
-  font-size: 4.525rem;
+  font-size: 5.525rem;
   line-height: 6.5625rem;
   text-align: center;
   color: #9391ff;
+}
+
+h2 {
+  padding-top: 2.5em;
+  margin-bottom: -1em;
 }
 
 /* Header Softwear Developer>>> Topography */
@@ -69,28 +75,47 @@ h1 {
 
 /* Main Header */
 .HD {
-  margin-top: 0.5rem;
+  margin-top: 1.5em;
   margin-bottom: 0.2em;
 }
 
 /* Vertical Line */
 .HRL {
-  border: 2px solid rgb(53, 51, 51);
-  width: 80%;
+  border: 1px solid #646369;
+  width: 100%;
   margin: auto;
   margin-top: 2.5em;
   margin-bottom: 2.5rem;
 }
 
+/* Bottom most Vertical Line */
+.HRL2{
+  border: 1px solid #646369;
+  width: 99%;
+  margin: auto;
+}
+
+/* Bottom most SHORT Vertical Line */
+.HRL3{
+  display: none;
+  border: 3px solid #0f0f0f;
+  width: 30%;
+  margin: auto;
+  border-radius: 13%;
+  margin-top: 1.5rem;
+  }
+
 /* Top Navigation Bar */
 nav {
   width: 90%;
-  height: 3rem;
+  height: 5rem;
   display: flex;
   margin: 0 auto;
   align-items: center;
   font-size: 1rem;
+  padding-right: 8.4rem;
 }
+/* Work, Down Arrow & Social Media Div */
 
 .div2 {
   width: 80%;
@@ -98,23 +123,27 @@ nav {
   display: flex;
   margin: 0 auto;
   justify-content: space-around;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 6rem;
 }
+.social {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
 
+/* Position the Right side Part of the Top Nav Bar */
 .navA {
   width: 50%;
   float: right;
 }
 
+/* Positioning of John doe Log */
 .navB {
   width: 40%;
   float: left;
-}
-
-.navSpace {
-  width: 5em;
-  height: 0.001em;
+  font-size: 1.3rem;
+  padding-left: 9rem;
 }
 
 ul {
@@ -122,6 +151,26 @@ ul {
   margin-bottom: 0;
   margin-left: -2rem;
 }
+
+li {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-right: rem;
+}
+
+/* Nav Bar List */
+.navL li {
+  float: right;
+  padding-left: em;
+  padding-right: 2rem;
+}
+
 
 /* (A) NAVIGATION BAR */
 .RootBar {
@@ -193,7 +242,7 @@ span {
 
 .line {
   background-color: #fff;
-  height: 5px;
+  height: 2.5px;
   width: 100%;
 }
 
@@ -215,23 +264,7 @@ span {
   margin: auto;
 }
 
-li {
-  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  padding-right: 1rem;
-}
-
-.navL li {
-  float: right;
-  padding-left: 5em;
-}
-
+/* Header for the .Tech-list */
 .HL {
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
@@ -243,6 +276,7 @@ li {
   color: #9390ff;
 }
 
+/* Lists of Technology */
 .Tech-list {
   width: 100%;
   display: flex;
@@ -251,12 +285,13 @@ li {
 
 .Enclipe1 {
   position: absolute;
-  width: 10em;
-  height: 10em;
-  left: 0.3em;
-  top: 10em;
+  width: 12em;
+  height: 12em;
+  left: 4em;
+  top: 15em;
   background: #edecff;
-  filter: blur(3em);
+  filter: blur(1em);
+  border-radius: 50%;
 }
 
 .Enclipe2 {
@@ -275,7 +310,7 @@ li {
   display: grid;
   justify-content: center;
   grid-template-columns: 80%;
-  grid-template-rows: 15rem 30rem 30rem 30rem 30rem 50rem 5.5rem;
+  grid-template-rows: 20rem 30rem 30rem 30rem 30rem 50rem 5rem 5.5rem;
   grid-gap: 6rem;
   grid-template-areas:
     "title"
@@ -284,6 +319,7 @@ li {
     "main3"
     "main4"
     "contact"
+    "LineF"
     "footer";
 }
 
@@ -318,10 +354,11 @@ button:active {
   text-align: center;
   background: #7d73fc;
   flex: none;
+  margin-top: 3rem;
 }
 
 .WKT {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   margin-top: 4rem;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
@@ -367,10 +404,11 @@ textarea {
   font-size: 1rem;
   text-align: left;
   color: #81818c;
+  margin-top: -1em;;
 }
 
 #names {
-  width: 46.5em;
+  width: 95%;
   max-lines: 0.6rem;
   position: relative;
   background: #f7f3ff;
@@ -386,7 +424,7 @@ textarea {
 /* Email Input */
 #email {
   color: #191765;
-  width: 46.5em;
+  width: 95%;
   position: relative;
   background: #f7f3ff;
   font-family: Roboto, sans-serif;
@@ -402,8 +440,8 @@ textarea {
 .Cname {
   width: 100%;
   font-family: "Roboto", sans-serif;
-  color: #7d73fc;
-  font-size: 17px;
+  color: #9390FF;
+  font-size: 1.7rem;
   line-height: 80px;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
@@ -411,20 +449,24 @@ textarea {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 1rem;
 }
 
 /* Owner contact email Address */
 .Femail {
-  width: 100%;
-  padding-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  width: 23%;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 50;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: left;
   color: #ebebff;
-  margin-bottom: 10rem;
+}
+
+.social {
+  width: 20%;
+  text-align: right;
+  font-size: 0.5rem;
 }
 
 form {
@@ -433,7 +475,6 @@ form {
   flex-flow: column nowrap;
   align-content: center;
   align-items: center;
-  margin-top: 1.8rem;
 }
 
 .lkd {
@@ -470,7 +511,8 @@ form {
   font-size: 3rem;
   line-height: 5rem;
   display: flex;
-  align-items: center;
+  flex-flow: column;
+  align-content: flex-end;
   color: #9390ff;
 }
 
@@ -513,16 +555,21 @@ form {
   margin-bottom: 1.5rem;
 }
 
+.Cndetail {
+  display: flex;
+  justify-content: center;
+}
+
 .Cndetail p {
-  padding-bottom: 1.7em;
+  padding-bottom: 5em;
   padding-top: 1em;
-  width: 30rem;
+  width: 70%;
   text-align: center;
   margin-top: 0;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
   color: #dcdce8;
   order: 0;
@@ -558,17 +605,25 @@ form {
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
-  align-content: center;
+  justify-content: center;
   align-items: center;
 }
+
+.LineF {
+  grid-area: LineF;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+ }
 
 .Footer {
   grid-area: footer;
   width: 100%;
   display: flex;
-  flex-flow: column;
-  align-items: center;
+  flex-flow: row ;
   justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
 }
 
 /* **************......... MEDIA QUERIES..........***************************
@@ -742,6 +797,7 @@ Mearnt for Mobile Phones of all sizes */
 
   body {
     max-width: 45em;
+    
   }
 
   .Enclipe1 {
@@ -764,8 +820,17 @@ Mearnt for Mobile Phones of all sizes */
     filter: blur(3em);
   }
 
-  .nav {
-    height: 10rem;
+  .nav1 {
+    display: flex;
+    align-items: flex-end;
+    height: 5rem;
+    width: 95%;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .div2 {
+    width: 100%;
   }
 
   .navA {
@@ -773,14 +838,40 @@ Mearnt for Mobile Phones of all sizes */
     display: none;
   }
 
+  .navB {
+   margin-left: -5em;
+  }
+
   .navL li {
     float: none;
     justify-content: right;
   }
 
+  .RootBar {
+    margin-top: -5em;
+    display: flex;
+  }
+
+  .navEnv {
+    display: none;
+  }
+
   .container-1 {
     width: 95%;
     margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Desc {
+    width: 65%;
+    margin-top: 4rem;
+  }
+
+  .div2 {
+    margin-top: 2rem;
   }
 
   .Wimage {
@@ -805,7 +896,7 @@ Mearnt for Mobile Phones of all sizes */
     justify-content: center;
     grid-template-columns: 95%;
     grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
-    grid-gap: 6rem;
+    grid-gap: 2rem;
     grid-template-areas:
       "title"
       "main1"
@@ -815,6 +906,11 @@ Mearnt for Mobile Phones of all sizes */
       "contact"
       "footer";
   }
+  
+   /* Transforms "My recent work" in UPPERCASE */
+.f {
+  text-transform: uppercase;
+}
 
   button {
     width: 45%;
@@ -822,7 +918,7 @@ Mearnt for Mobile Phones of all sizes */
   }
 
   .Title {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
 
   .work1 {
@@ -877,23 +973,15 @@ Mearnt for Mobile Phones of all sizes */
 
   .Tech-list {
     margin: auto;
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
-  .RootBar {
-    display: flex;
-  }
-
-  .navEnv {
-    display: none;
-  }
-
   .arrow {
     position: absolute;
-    bottom: -35em;
+    bottom: -32em;
   }
 
   .btm img {
@@ -905,6 +993,20 @@ Mearnt for Mobile Phones of all sizes */
     left: 5em;
   }
 
+  .Footer {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+  }
+
+  .social {
+    text-align: justify;
+  }
+
+  .HRL3 {
+    display: inline;
+  }
+  
   h1::after {
     display: inline-block;
     text-transform: uppercase;
