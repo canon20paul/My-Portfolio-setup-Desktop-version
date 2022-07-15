@@ -61,6 +61,37 @@ h2 {
   color: #dfe1e6;
 }
 
+/* Animations, Transformations and Transitions
+Translates WORD Software developer */
+.HSD:hover {
+  transform: scale(1.2, 1);
+}
+
+/* Rotates social media icons on Hover */
+.social a img:hover {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Tranforms work direction Arrows */
+.arrow {
+  animation: ARROWS 1s alternate infinite ease-in;
+}
+
+@keyframes ARROWS {
+  0% { transform: scaleY(1); }
+  100% { transform: scaleY(2); }
+}
+
 /* Main Description>>> Topography */
 .Desc {
   margin-top: 6em;
