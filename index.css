@@ -608,13 +608,13 @@ form {
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 1rem;
- }
+}
 
 .Footer {
   grid-area: footer;
   width: 100%;
   display: flex;
-  flex-flow: row ;
+  flex-flow: row;
   justify-content: center;
   align-items: center;
   font-size: 0.5rem;
@@ -791,7 +791,6 @@ Mearnt for Mobile Phones of all sizes */
 
   body {
     max-width: 45em;
-    
   }
 
   .Enclipe1 {
@@ -825,6 +824,7 @@ Mearnt for Mobile Phones of all sizes */
 
   .div2 {
     width: 100%;
+    margin-top: 2rem;
   }
 
   .navA {
@@ -833,7 +833,7 @@ Mearnt for Mobile Phones of all sizes */
   }
 
   .navB {
-   margin-left: -5em;
+    margin-left: -5em;
   }
 
   .navL li {
@@ -864,11 +864,7 @@ Mearnt for Mobile Phones of all sizes */
     margin-top: 4rem;
   }
 
-  .div2 {
-    margin-top: 2rem;
-  }
-
-  .Wimage {
+   .Wimage {
     height: 40%;
     width: 92%;
   }
@@ -903,8 +899,8 @@ Mearnt for Mobile Phones of all sizes */
   
    /* Transforms "My recent work" in UPPERCASE */
 .f {
-  text-transform: uppercase;
-}
+    text-transform: uppercase; 
+  }
 
   button {
     width: 45%;
@@ -1004,5 +1000,5 @@ Mearnt for Mobile Phones of all sizes */
   h1::after {
     display: inline-block;
     text-transform: uppercase;
-  }
+   }
 }
