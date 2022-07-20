@@ -366,11 +366,11 @@ button:active {
 
 .buttonW {
   font-size: 1rem;
-  color: white;
+  color: #191765;
   width: 7rem;
   height: 3rem;
   text-align: center;
-  background: #7d73fc;
+  background: #fff;
   flex: none;
 }
 
@@ -379,12 +379,12 @@ button:active {
 }
 
 .buttonS {
+  color: #191765;
   font-size: 1rem;
-  color: white;
   width: 9rem;
   height: 3rem;
   text-align: center;
-  background: #7d73fc;
+  background:#fff;  
   flex: none;
   margin-top: 3rem;
 }
