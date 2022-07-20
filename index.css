@@ -379,7 +379,7 @@ button:active {
 }
 
 .buttonS {
-  color: #191765;
+  color: #16145f;
   font-size: 1rem;
   width: 9rem;
   height: 3rem;
@@ -455,10 +455,10 @@ textarea {
 
 /* Email Input */
 #email {
-  color: #191765;
+  color: #0f0c5e;
   width: 95%;
   position: relative;
-  background: #f7f3ff;
+  background: #f9f6fe;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -472,7 +472,7 @@ textarea {
 .Cname {
   width: 100%;
   font-family: "Roboto", sans-serif;
-  color: #9390ff;
+  color: #9a96ff;
   font-size: 1.7rem;
   line-height: 80px;
   letter-spacing: 0.3700000047683716px;
