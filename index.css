@@ -47,7 +47,8 @@ h1 {
 
 h2 {
   padding-top: 2.5em;
-  margin-bottom: -1em;
+  margin-bottom: -1.5em;
+  padding-left: 0.5em;
 }
 
 /* Header Softwear Developer>>> Topography */
@@ -238,6 +239,24 @@ li {
   background-color: #fff;
 }
 
+.arr {
+  opacity: 0;
+}
+
+.error {
+  color: #f00;
+  font-size: 1rem;
+  margin-top: 1px;
+}
+
+.hidden {
+  z-index: -1;
+}
+
+.unhidden {
+  z-index: 10;
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -266,10 +285,11 @@ li {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 60px;
+    top: 77px;
     gap: 0;
     flex-direction: column;
-    background-color: #191765;
+    background: #191765;
+    z-index: 10;
     width: 100%;
     text-align: justify;
     transition: 0.2s;
@@ -286,6 +306,7 @@ li {
   }
 
   .arr {
+    opacity: 1;
     padding-right: 1em;
     float: right;
     color: rgb(30, 140, 200);
@@ -353,16 +374,390 @@ li {
   filter: blur(3em);
 }
 
+/* PROJECT CARDS */
+.Project-cards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-project-1 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Wimage {
+  width: 60%;
+  min-height: 26em;
+  object-fit: cover;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+  animation: moveInRight 3s ease-in-out;
+}
+
+.work-item-1 {
+  width: 80%;
+  display: flex;
+  animation: moveInLeft 3s ease-in-out;
+}
+
+.work-item-2 {
+  width: 80%;
+  display: flex;
+}
+
+.work-card {
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.card-description {
+  font-family: Roboto, sans-serif;
+  margin-top: 3.4em;
+  font-size: 1.1rem;
+  line-height: 1.5em;
+}
+
+.card h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 19px;
+}
+
+.card h4 {
+  font-weight: 600;
+}
+
+.card-languages {
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+}
+
+.card-languages li {
+  list-style: none;
+  color: #fff;
+  padding: 4px 12px;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1rem;
+  position: relative;
+  float: left;
+  border-right: 2px solid #fff;
+}
+
+#blur {
+  filter: blur(100px);
+}
+
+.wrapper {
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 91.8em;
+  left: 0;
+  top: 0;
+  background-color: #191765;
+}
+
+.wrap1 {
+  display: flex;
+  flex-flow: column;
+  height: 92em;
+  width: 72.25em;
+  margin: auto auto;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
+  z-index: 10;
+}
+
+.wrap1-img-img {
+  display: flex;
+  width: 95%;
+  height: 30em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.wrap-header {
+  width: 95%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 4em;
+}
+
+.xx-img {
+  display: flex;
+  flex-flow: column;
+  width: 2.43em;
+  height: 70%;
+}
+
+.wrap-header h3 {
+  width: 50%;
+  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 100%;
+  color: #fff;
+}
+
+.wrap-bottom {
+  margin: auto;
+  margin-top: 10em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 60%;
+  height: 10em;
+}
+
+.wrap-detail {
+  width: 100%;
+  height: 236px;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 6em;
+}
+
+.wrap-bottom ul {
+  list-style: none;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.wrap-bottom li {
+  color: #fff;
+  padding: 4px 12px;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  position: relative;
+  float: left;
+  border-right: 2px solid #fff;
+}
+
+.btnD {
+  margin: auto;
+  width: 50%;
+  height: 10em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnPP-img {
+  width: 24px;
+  height: 24px;
+  padding: 0 0;
+  margin: 0;
+}
+
+.btnPP {
+  padding-bottom: 5em;
+}
+
+.live {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  position: absolute;
+  width: 108px;
+  height: 48px;
+  left: calc(50% - 108px / 2 - 103px);
+  bottom: 15em;
+  background: rgb(125, 115, 252);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.source {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: calc(50% - 124px / 2 + 91px);
+  bottom: 15em;
+  background: rgb(30, 140, 200);
+}
+
+/* Mobile Query for Modal */
+@media (max-width: 768px) {
+  .wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 91.8em;
+    left: 0;
+    top: 0;
+  }
+
+  .wrap1 {
+    display: flex;
+    flex-flow: column;
+    height: 90%;
+    width: 95%;
+    margin: auto auto;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid #fff;
+    box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
+  }
+
+  .wrap1-img img {
+    display: flex;
+    width: 95%;
+    height: 12em;
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .wrap-header {
+    width: 95%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 4em;
+  }
+
+  .xx img {
+    display: flex;
+    flex-flow: column;
+    width: 2.43em;
+    height: 70%;
+  }
+
+  .wrap-header h3 {
+    width: 70%;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    color: #fff;
+  }
+
+  .wrap-bottom {
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .wrap-detail {
+    width: 100%;
+    height: 236px;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4em;
+  }
+
+  .wrap-bottom ul {
+    display: inline;
+    position: relative;
+    list-style: none;
+    margin-top: 10em;
+  }
+
+  .wrap-bottom li {
+    color: rgb(255, 255, 255);
+    padding: 4px 12px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    position: relative;
+    float: left;
+    border-right: 2px solid #fff;
+  }
+
+  .btnD {
+    margin: auto;
+    margin-top: 7em;
+    width: 50%;
+    height: 10em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnPP img {
+    width: 24px;
+    height: 24px;
+    padding: 0 0;
+    margin: 0;
+  }
+
+  .live {
+    bottom: 13.5em;
+    left: 12.7em;
+    flex-grow: 0;
+  }
+
+  .source {
+    bottom: 8em;
+    left: 12.3em;
+    flex-grow: 0;
+  }
+}
+
 .works {
   margin-top: rem;
-  height: 551vh;
+  height: 500vh;
   display: grid;
   justify-content: center;
   grid-template-columns: 80%;
-  grid-template-rows: 20rem 30rem 30rem 30rem 30rem 50rem 5rem 5.5rem;
+  grid-template-rows: 30rem 30rem 30rem 30rem 50rem 5rem 5.5rem;
   grid-gap: 6rem;
   grid-template-areas:
-    "title"
     "main1"
     "main2"
     "main3"
@@ -370,15 +765,6 @@ li {
     "contact"
     "LineF"
     "footer";
-}
-
-/* button color selectors */
-button:hover {
-  background: #221bfc;
-}
-
-button:active {
-  background: #030316;
 }
 
 .buttonW {
@@ -404,6 +790,23 @@ button:active {
   background: #fff;
   flex: none;
   margin-top: 3rem;
+}
+
+/* button color selectors */
+.buttonW:hover {
+  background: #221bfc;
+}
+
+.buttonS:hover {
+  background: #221bfc;
+}
+
+.buttonW:active {
+  background: #030316;
+}
+
+.buttonS:active {
+  background: #030316;
 }
 
 .WKT {
@@ -498,7 +901,7 @@ textarea {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3em;
 }
 
 /* Owner contact email Address */
@@ -542,7 +945,6 @@ form {
 }
 
 .Title {
-  grid-area: title;
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
   font-style: normal;
   font-weight: 43.75rem;
@@ -552,13 +954,6 @@ form {
   flex-flow: column;
   align-content: flex-end;
   color: #9390ff;
-}
-
-.Wimage {
-  width: 60%;
-  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* Work Description */
@@ -699,9 +1094,14 @@ MAX-WITHDTH 650PX */
     padding-left: 1rem;
   }
 
-  button {
+  .buttonW {
     font-size: 1rem;
-    width: 100%;
+    width: 7em;
+  }
+
+  .buttonS {
+    font-size: 1rem;
+    width: 7em;
   }
 
   .navSpace {
@@ -780,9 +1180,14 @@ like Tabs */
     padding-left: 1rem;
   }
 
-  button {
+  .buttonW {
     font-size: 1rem;
-    width: 100%;
+    width: 7em;
+  }
+
+  .buttonS {
+    font-size: 1rem;
+    width: 7em;
   }
 
   .navSpace {
@@ -880,11 +1285,6 @@ Mearnt for Mobile Phones of all sizes */
     justify-content: right;
   }
 
-  .RootBar {
-    margin-top: -5em;
-    display: flex;
-  }
-
   .navEnv {
     display: none;
   }
@@ -920,14 +1320,13 @@ Mearnt for Mobile Phones of all sizes */
   .works {
     margin-top: rem;
     border-color: rgb(167, 161, 161);
-    height: 695vh;
+    height: 600vh;
     display: grid;
     justify-content: center;
     grid-template-columns: 95%;
-    grid-template-rows: 20em 45em 45em 45em 45em 50em 1.5em;
+    grid-template-rows: 45em 45em 45em 45em 50em 1.5em;
     grid-gap: 2rem;
     grid-template-areas:
-      "title"
       "main1"
       "main2"
       "main3"
@@ -941,9 +1340,18 @@ Mearnt for Mobile Phones of all sizes */
     text-transform: uppercase;
   }
 
-  button {
-    width: 45%;
+  .btnC {
+    width: 100%;
+  }
+
+  .buttonW {
+    width: 7em;
     font-size: 1rem;
+  }
+
+  .buttonS {
+    font-size: 1rem;
+    width: 7em;
   }
 
   .Title {
@@ -987,6 +1395,10 @@ Mearnt for Mobile Phones of all sizes */
     align-items: center;
   }
 
+  .Cname {
+    margin-bottom: 3em;
+  }
+
   textarea {
     width: 28em;
   }
@@ -1010,7 +1422,7 @@ Mearnt for Mobile Phones of all sizes */
 
   .arrow {
     position: absolute;
-    bottom: -32em;
+    bottom: -28em;
   }
 
   .btm img {
@@ -1039,5 +1451,19 @@ Mearnt for Mobile Phones of all sizes */
   h1::after {
     display: inline-block;
     text-transform: uppercase;
+  }
+
+  .main-project-1 {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .work-card {
+    width: 90%;
+  }
+
+  .main-project-1 img {
+    width: 100%;
   }
 }

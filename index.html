@@ -28,12 +28,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    
     <title>Portfolio-Paul Malongo</title>
+   
   </head>
 
   <body>
+    <div class="wrapper">
     <nav class="nav1 flame">
-      <div class="navB flame"><a class="navP" href="#" >John Doe</a></div>
+      <div class="navB flame" id="navB"><a class="navP" id="navP" href="#" >John Doe</a></div>
       
         <div class=" navA nav-bar">
                     <ul class="nav-menu">
@@ -136,119 +139,15 @@
         </div>
       </div>
       <!--Opening Container-2 Grid Container-->
-      <div class="works flame">
-        <div class="Title">
-          <h2 class="f">My recent Work</h2>
-          <div class="HRL"></div>
-        </div>
-        
-        <!--Opening Work1 element-->
-        <div class="work1 flame">
-          <div class="Wimage"></div>
-          <div class="wkttl flame">
-            <h3 class="WKT">Multi-Post Stories</h3>
-            <div class="WKdetail flame">
-              <p id="wkk">
-                A daily selection of privately Personalized reads; no accounts
-                or Signups required, has been the industry's standard dummy text
-                eveer since the 1500s, when an unknown Printer took a standard
-                dummy text.
-              </p>
-            </div>
+      <div class="Title">
+        <h2 class="f">My recent Work</h2>
+        <div class="HRL"></div>
+      </div>
 
-            <div class="wfoot flame">
-              <ul>
-                <li class="fa"><a href="#">css&nbsp; | </a></li>
-                <li class="fa"><a href="#">html&nbsp; |</a></li>
-                <li class="fa"><a href="#">bootstrap&nbsp; |</a></li>
-                <li class="fa"><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-            <div class="btnC flame">
-                            <button class="buttonW" type="button" onclick="window.location.href='work.html';"> See Project</button>
-            </div>
-          </div>
-        </div>
-        <!--closing Work1 element-->
-        <div class="work2">
-          <div class="wkttl flame">
-            <h3 class="WKT">Multi-Post Stories</h3>
-            <div class="WKdetail flame">
-              <p>
-                A daily selection of privately Personalized reads; no accounts
-                or Signups required, has been the industry's standard dummy text
-                eveer since the 1500s, when an unknown Printer took a standard
-                dummy text.
-              </p>
-            </div>
+      <!--PROJECT WORK CARDS-->
+      <div class="Project-Cards"> </div>
 
-            <div class="wfoot flame">
-              <ul>
-                <li class="fa"><a href="#">css&nbsp; | </a></li>
-                <li class="fa"><a href="#">html&nbsp; |</a></li>
-                <li class="fa"><a href="#">bootstrap&nbsp; |</a></li>
-                <li class="fa"><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-            <div class="btnC flame">
-              <button class="buttonW" type="button" onclick="window.location.href='work.html';"> See Project</button>
-            </div>
-          </div>
-          <div class="Wimage"></div>
-        </div>
-        <!--Opening Work3 element-->
-        <div class="work3 flame">
-          <div class="Wimage"></div>
-          <div class="wkttl flame">
-            <h3 class="WKT">Multi-Post Stories</h3>
-            <div class="WKdetail flame">
-              <p>
-                A daily selection of privately Personalized reads; no accounts
-                or Signups required, has been the industry's standard dummy text
-                eveer since the 1500s, when an unknown Printer took a standard
-                dummy text.
-              </p>
-            </div>
-
-            <div class="wfoot flame">
-              <ul>
-                <li class="fa"><a href="#">css&nbsp; | </a></li>
-                <li class="fa"><a href="#">html&nbsp; |</a></li>
-                <li class="fa"><a href="#">bootstrap&nbsp; |</a></li>
-                <li class="fa"><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-            <div class="btnC flame">
-              <button class="buttonW" type="button" onclick="window.location.href='work.html';"> See Project</button>
-            </div>
-          </div>
-        </div>
-        <!--closing Work4 element-->
-        <div class="work4">
-          <div class="wkttl flame">
-            <h3 class="WKT">Multi-Post Stories</h3>
-            <div class="WKdetail flame">
-              <p>
-                A daily selection of privately Personalized reads; no accounts
-                or Signups required, has been the industry's standard dummy text
-                eveer since the 1500s, when an unknown Printer took a standard
-                dummy text.
-              </p>
-            </div>
-            <div class="wfoot flame">
-              <ul>
-                <li class="fa"><a href="#">css&nbsp; | </a></li>
-                <li class="fa"><a href="#">html&nbsp; |</a></li>
-                <li class="fa"><a href="#">bootstrap&nbsp; |</a></li>
-                <li class="fa"><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-            <div class="btnC flame">
-              <button class="buttonW" type="button" onclick="window.location.href='work.html';"> See Project</button>
-            </div>
-          </div>
-          <div class="Wimage"></div>
-        </div>
+      
         <!---Background Eclips-->
         <div class="spear">
           <div class="spear"></div>
@@ -300,7 +199,8 @@
                 maxlength="500"
                 required
               ></textarea
-              ><br />
+              ><span class="error" aria-live="polite"></span><br />
+              <br />
               <div class="btnCL">
                 <button class="buttonS fa" type="submit">Send</button>
               </div>
@@ -341,7 +241,12 @@
       </div>
     </section>
 
-
+  
+</div>
+  <!--Closing Page Wrapper-->
     <script src="index.js"></script>
+    <script src="modal.js"></script>
+    <script src="dataStorage.js"></script>
+   
   </body>
 </html>
