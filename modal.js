@@ -102,9 +102,7 @@ const workCardShouldReverse = (index) => {
   appendWorks(works);
   projects_container.innerHTML = workCard;
 
-  let workCardm = '';
-
-  function popUpDiv(j) {
+ function popUpDiv(j) {
 const  closs=document.getElementsByClassName("wrapper");
   const wrap = document.createElement("section");
   const wrap1 = document.createElement("div");
@@ -118,17 +116,13 @@ const  closs=document.getElementsByClassName("wrapper");
     <ul >${languageHtml(works, j)}</ul>
       <div class="btnD"><button type="submit" id="live" class=" btnPP live"><a href="${works[j].live_demo}">See Live<img class="btnPP-img" src="images/live.png" alt=""></a></button> 
       <button type="submit" id="source" class="btnPP source"><a href="${works[j].source}">See Source <img class="btnPP-img" src="images/github.png" alt=""></a></button> </div>
-
     </div>
     </div>
   </section>`;
   wrap.appendChild(wrap1);
   document.body.appendChild(wrap);
   document.documentElement.scrollTop=500;
-  
-  }
-
-
+   }
 
   function blurOut() {
     const blur = document.querySelector('.wrapper');
@@ -142,12 +136,4 @@ const  closs=document.getElementsByClassName("wrapper");
    shut.remove()
    
   }
-  
-  
-
-  
-
-
-
-
-  
+    
