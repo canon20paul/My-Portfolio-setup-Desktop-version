@@ -6,15 +6,20 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");  
     navmenu.classList.toggle("active");
     
+    document.getElementsByClassName("navA").width='100%';
+    
+    
 
 if(document.getElementById("email").style.zIndex=="-1"){
-    document.getElementById("email").style.zIndex="1"
-    document.getElementById("names").style.zIndex="1"
+    document.getElementById("email").style.zIndex="1";
+    document.getElementById("names").style.zIndex="1";
     document.body.style.overflow = "auto";
+    document.getElementById("navB").style.opacity="1";
 } else{
-    document.getElementById("email").style.zIndex="-1"
-    document.getElementById("names").style.zIndex="-1"
+    document.getElementById("email").style.zIndex="-1";
+    document.getElementById("names").style.zIndex="-1";
     document.body.style.overflow = "hidden";
+    document.getElementById("navB").style.opacity="0";
         
 }
        })

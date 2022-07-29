@@ -224,7 +224,7 @@ li {
 
 .bar {
   display: block;
-  width: 35px;
+  width: 25px;
   height: 2px;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
