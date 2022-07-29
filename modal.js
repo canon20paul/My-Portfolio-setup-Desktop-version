@@ -115,7 +115,7 @@ const  closs=document.getElementsByClassName("wrapper");
   <div id="wrap-header" class="wrap-header"><h3>${works[j].title}</h3><div class="xx"><img class="xx-img" src="images/Cancel.png" alt="Close" onclick="removeBlur()" /></div></div>
   <div class="wrap1-img"><img class="wrap1-img-img" src="${works[j].featured_image}" alt="${works[j].title}" /></div>
   <div class="wrap-bottom"><p class="wrap-detail">${works[j].detail}</p>
-    <ul >${languageHtml2(works, j)}</ul>
+    <ul >${languageHtml(works, j)}</ul>
       <div class="btnD"><button type="submit" id="live" class=" btnPP live"><a href="${works[j].live_demo}">See Live<img class="btnPP-img" src="images/live.png" alt=""></a></button> 
       <button type="submit" id="source" class="btnPP source"><a href="${works[j].source}">See Source <img class="btnPP-img" src="images/github.png" alt=""></a></button> </div>
 
@@ -124,6 +124,7 @@ const  closs=document.getElementsByClassName("wrapper");
   </section>`;
   wrap.appendChild(wrap1);
   document.body.appendChild(wrap);
+  document.documentElement.scrollTop=500;
   
   }
 

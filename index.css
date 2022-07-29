@@ -21,13 +21,6 @@ body {
   font-size: 1rem;
 }
 
-img:hover {
-  border: 0.2rem solid red;
-  border-style: double;
-  border-radius: 50%;
-  transform: scaleX(1.5);
-}
-
 * {
   padding: o;
   margin: 0;
@@ -292,7 +285,7 @@ li {
     z-index: 10;
     width: 100%;
     text-align: justify;
-    transition: 0.2s;
+    transition: 0.01s;
     padding-bottom: 30em;
   }
 
@@ -617,7 +610,8 @@ li {
   height: 48px;
   left: calc(50% - 124px / 2 + 91px);
   bottom: 15em;
-  background: rgb(30, 140, 200);
+  background: rgb(125, 115, 252);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 /* Mobile Query for Modal */
@@ -681,7 +675,7 @@ li {
 
   .wrap-bottom {
     margin: auto;
-    margin-top: 3em;
+    margin-top: 70%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -1466,4 +1460,11 @@ Mearnt for Mobile Phones of all sizes */
   .main-project-1 img {
     width: 100%;
   }
+}
+
+.xx-img:hover {
+  border: 0.2rem solid red;
+  border-style: double;
+  border-radius: 50%;
+  transform: scaleX(1.5);
 }
