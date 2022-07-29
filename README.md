@@ -13,6 +13,8 @@
 
 ## Live Demo (checkout the Live Demo Below)
 
+[APP Link](https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/)
+
 [Live Demo Link](https://www.loom.com/share/67c15e1fd2ae4b09805e50bf36fd98a8)
 
 
