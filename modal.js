@@ -1,5 +1,4 @@
 const projects_container = document.querySelector('.Project-Cards');
-
 const works = [
   {
     title: 'Multi-post Stories1',
@@ -46,7 +45,6 @@ const works = [
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
   },
 ];
-
 
 const workCardShouldReverse = (index) => {
     if (index % 2 === 0) {
@@ -102,13 +100,12 @@ const workCardShouldReverse = (index) => {
   appendWorks(works);
   projects_container.innerHTML = workCard;
 
- function popUpDiv(j) {
-const  closs=document.getElementsByClassName("wrapper");
+function popUpDiv(j) {
+  const  closs=document.getElementsByClassName("wrapper");
   const wrap = document.createElement("section");
   const wrap1 = document.createElement("div");
   wrap.classList.add("wrap")
   wrap1.classList.add("wrap1")
-  
   wrap1.innerHTML= ` <section class="wrap"><div class="wrap1">
   <div id="wrap-header" class="wrap-header"><h3>${works[j].title}</h3><div class="xx"><img class="xx-img" src="images/Cancel.png" alt="Close" onclick="removeBlur()" /></div></div>
   <div class="wrap1-img"><img class="wrap1-img-img" src="${works[j].featured_image}" alt="${works[j].title}" /></div>
@@ -129,15 +126,13 @@ const  closs=document.getElementsByClassName("wrapper");
   function blurOut() {
     const blur = document.querySelector('.wrapper');
     blur.setAttribute('id', 'blur');
+  }
 
-   
-      }
-
-  function removeBlur() {
+function removeBlur() {
     document.querySelector('.wrapper').removeAttribute('id');
     document.querySelector('.wrapper').removeAttribute('id');
     const shut=document.querySelector(".wrap");
    shut.remove()
    
-  }
+}
     
