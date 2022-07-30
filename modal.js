@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-const Projects_Container = document.querySelector('.Project-Cards');
+const projects_Container = document.querySelector('.Project-Cards');
 const works = [
   {
     title: 'Multi-post Stories1',
