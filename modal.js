@@ -82,7 +82,7 @@ const appendWorks = (works) => {
   }
 };
 appendWorks(works);
-projects_Container.innerHTML = workCard;
+Projects_Container.innerHTML = workCard;
 function popUpDiv(j) {
   const wrap = document.createElement('section');
   const wrap1 = document.createElement('div');
