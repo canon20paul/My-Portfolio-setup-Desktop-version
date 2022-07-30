@@ -7,7 +7,7 @@ const works = [
      " A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry's standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.",
     detail:
      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image: "images/portfolio.png",
+     featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
@@ -114,19 +114,23 @@ const  closs=document.getElementsByClassName("wrapper");
   <div class="wrap1-img"><img class="wrap1-img-img" src="${works[j].featured_image}" alt="${works[j].title}" /></div>
   <div class="wrap-bottom"><p class="wrap-detail">${works[j].detail}</p>
     <ul >${languageHtml(works, j)}</ul>
-      <div class="btnD"><button type="submit" id="live" class=" btnPP live"><a href="${works[j].live_demo}">See Live<img class="btnPP-img" src="images/live.png" alt=""></a></button> 
-      <button type="submit" id="source" class="btnPP source"><a href="${works[j].source}">See Source <img class="btnPP-img" src="images/github.png" alt=""></a></button> </div>
+      <div class="btnD"><button type="submit" id="live" class=" btnPP live"><a href="${works[j].live_demo}"><span class="spanL">See Live</span><img class="btnPP-imgL" src="images/live.png" alt=""></a></button> 
+      <button type="submit" id="source" class="btnPP source"><a href="${works[j].source}"><span class="spanS">See Source</span><img class="btnPP-imgS" src="images/github.png" alt=""></a></button> </div>
     </div>
+    <div class="Enclipe10"></div>
+        <div class="Enclipe20"></div>
     </div>
   </section>`;
   wrap.appendChild(wrap1);
   document.body.appendChild(wrap);
-  document.documentElement.scrollTop=500;
+  document.documentElement.scrollTop=0;
    }
 
   function blurOut() {
     const blur = document.querySelector('.wrapper');
     blur.setAttribute('id', 'blur');
+
+   
       }
 
   function removeBlur() {
