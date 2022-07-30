@@ -1,5 +1,4 @@
 const form = document.getElementById('ContactF');
-
 const Data = {
   names: '',
   email: '',
