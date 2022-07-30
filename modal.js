@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const Projects_Container = document.querySelector('.Project-Cards');
 const works = [
   {
@@ -83,6 +84,7 @@ const appendWorks = (works) => {
 };
 appendWorks(works);
 Projects_Container.innerHTML = workCard;
+// eslint-disable-next-line no-unused-vars
 function popUpDiv(j) {
   const wrap = document.createElement('section');
   const wrap1 = document.createElement('div');
@@ -104,10 +106,12 @@ function popUpDiv(j) {
   document.body.appendChild(wrap);
   document.documentElement.scrollTop = 0;
 }
+// eslint-disable-next-line no-unused-vars
 function blurOut() {
   const blur = document.querySelector('.wrapper');
   blur.setAttribute('id', 'blur');
 }
+// eslint-disable-next-line no-unused-vars
 function removeBlur() {
   document.querySelector('.wrapper').removeAttribute('id');
   document.querySelector('.wrapper').removeAttribute('id');
