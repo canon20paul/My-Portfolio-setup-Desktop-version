@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-const projects_Container = document.querySelector('.Project-Cards');
+const projects_container = document.querySelector('.Project-Cards');
 const works = [
   {
     title: 'Multi-post Stories1',
@@ -83,7 +83,7 @@ const appendWorks = (works) => {
   }
 };
 appendWorks(works);
-Projects_Container.innerHTML = workCard;
+projects_container.innerHTML = workCard;
 // eslint-disable-next-line no-unused-vars
 function popUpDiv(j) {
   const wrap = document.createElement('section');
