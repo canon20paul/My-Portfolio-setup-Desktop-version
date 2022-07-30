@@ -23,7 +23,7 @@ function check() {
 }
 
 window.onload = () => {
-  check(); 
+check();
 };
 
 document.querySelector('#names').addEventListener('keydown', recordD);
