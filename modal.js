@@ -1,4 +1,4 @@
-const projects_Container = document.querySelector('.Project-Cards');
+const Projects_Container = document.querySelector('.Project-Cards');
 const works = [
   {
     title: 'Multi-post Stories1',
@@ -6,7 +6,7 @@ const works = [
      " A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry's standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.",
     detail:
      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
+    featured_image: 'https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg',
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
@@ -14,9 +14,9 @@ const works = [
   {
     title: 'Multi-Post Stories2',
     description:
-    'A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry" s standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.' ,
+    'A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry" s standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.',
     detail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
+    featured_image: 'https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg',
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
@@ -27,7 +27,7 @@ const works = [
      " A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry's standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.",
     detail:
      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
+    featured_image: 'https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg',
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
@@ -38,7 +38,7 @@ const works = [
      " A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry's standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.",
     detail:
      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
+    featured_image: 'https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg',
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
     live_demo: 'https://canon20paul.github.io/My-Portfolio-setup-Desktop-version/',
@@ -81,15 +81,14 @@ const appendWorks = (works) => {
     </section>`;
   }
 };
-  appendWorks(works);
-  projects_Container.innerHTML = workCard;
+appendWorks(works);
+projects_Container.innerHTML = workCard;
 function popUpDiv(j) {
-  const  closs=document.getElementsByClassName("wrapper");
-  const wrap = document.createElement("section");
-  const wrap1 = document.createElement("div");
-  wrap.classList.add("wrap")
-  wrap1.classList.add("wrap1")
-  wrap1.innerHTML= ` <section class="wrap"><div class="wrap1">
+  const wrap = document.createElement('section');
+  const wrap1 = document.createElement('div');
+  wrap.classList.add('wrap');
+  wrap1.classList.add('wrap1');
+  wrap1.innerHTML = ` <section class="wrap"><div class="wrap1">
   <div id="wrap-header" class="wrap-header"><h3>${works[j].title}</h3><div class="xx"><img class="xx-img" src="images/Cancel.png" alt="Close" onclick="removeBlur()" /></div></div>
   <div class="wrap1-img"><img class="wrap1-img-img" src="${works[j].featured_image}" alt="${works[j].title}" /></div>
   <div class="wrap-bottom"><p class="wrap-detail">${works[j].detail}</p>
@@ -103,15 +102,15 @@ function popUpDiv(j) {
   </section>`;
   wrap.appendChild(wrap1);
   document.body.appendChild(wrap);
-  document.documentElement.scrollTop=0;
+  document.documentElement.scrollTop = 0;
 }
 function blurOut() {
-    const blur = document.querySelector('.wrapper');
-    blur.setAttribute('id', 'blur');
+  const blur = document.querySelector('.wrapper');
+  blur.setAttribute('id', 'blur');
 }
 function removeBlur() {
   document.querySelector('.wrapper').removeAttribute('id');
   document.querySelector('.wrapper').removeAttribute('id');
-  const shut=document.querySelector(".wrap");
-  shut.remove()
+  const shut = document.querySelector('.wrap');
+  shut.remove();
 }
