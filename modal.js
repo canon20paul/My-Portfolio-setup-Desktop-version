@@ -14,8 +14,8 @@ const works = [
   {
     title: 'Multi-Post Stories2',
     description:
-     'A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry" s standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.' ,
-     detail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
+    'A daily selection of privately Personalized reads; no accounts or Signups required, has been the industry" s standard dummy text eveer since the 1500s, when an unknown Printer took a standard dummy text.' ,
+    detail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     featured_image: "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg",
     lang_list: ['css', 'html', 'bootsrap', 'Ruby', 'Github'],
     source: 'https://github.com/canon20paul/My-Portfolio-setup-Desktop-version',
@@ -48,30 +48,20 @@ const works = [
 const workCardShouldReverse = (index) => {
   if (index % 2 === 0) {
     return 'row-reverse work-item-2';
-   }
+  }
   return 'work-item-1';
 };
 const languageHtml = (workObj, key, langList = '') => {
   /* eslint-disable no-restricted-syntax */
   for (const lang in workObj[key].lang_list) {
-    if (lang-4) {
-      langList  +=  `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
+    if (lang - 4) {
+      langList += `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
     }
   }
   /* eslint-enable no-restricted-syntax */
   return langList;
 };
-const languageHtml2 = (workObj, key, langList = '') => {
-  /* eslint-disable no-restricted-syntax */
-  for (const lang in workObj[key].lang_list) {
-    if (lang) {
-      langList += `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
-    }
-   /* eslint-enable no-restricted-syntax */
-  return langList;
-  };
-}
-  let workCard = '';
+let workCard = '';
 const appendWorks = (works) => {
   for (let i = 0; i < works.length; i += 1) {
     workCard += ` <section class="main-project-1 ${workCardShouldReverse(i)}">
@@ -125,4 +115,3 @@ function removeBlur() {
   const shut=document.querySelector(".wrap");
   shut.remove()
 }
-    
