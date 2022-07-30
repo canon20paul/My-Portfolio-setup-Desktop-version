@@ -1,8 +1,8 @@
 function recordD() {
-  const recordOBJ = JSON.parse(localStorage.getItem('recordOBJ'));
-  recordOBJ.names = document.querySelector('#names').value;
+  const recordOBJ = JSON.parse(localStorage.getItem('reordOBJ'));
+  recordOBJ.name = document.querySelector('#names').value;
   recordOBJ.email = document.querySelector('#email').value;
-  recordOBJ.Naration = document.querySelector('#Naration').value;
+  recordOBJ.Naratin = document.querySelector('#Naration').value;
   localStorage.setItem('recordOBJ', JSON.stringify(recordOBJ));
 }
 
